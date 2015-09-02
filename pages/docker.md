@@ -12,6 +12,7 @@ description: ""
 
 * [Why Docker is Not Yet Succeeding Widely in Production](http://sirupsen.com/production-docker/)
 
+* [... 2](https://dzone.com/articles/why-docker-is-not-yet-widely-successful-in-product)
 
 
 
