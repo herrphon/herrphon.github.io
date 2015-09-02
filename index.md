@@ -1,13 +1,9 @@
 ---
 layout: page
-title: Hello World!
-tagline: Some tagline
+title: Hello World Blog!
+tagline: nothing yet
 ---
 {% include JB/setup %}
-
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## Posts
 
@@ -18,3 +14,6 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 </ul>
 
 
+
+
+Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
