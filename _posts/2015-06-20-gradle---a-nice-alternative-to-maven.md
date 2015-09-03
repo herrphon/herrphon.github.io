@@ -20,10 +20,11 @@ Gradle uses a config file called *build.gradle*. A good starting point for such 
 
 
 ```sh
-
 apply plugin: 'java'
+```
 
-
-````
+```sh
+rake test
+```
 
 
