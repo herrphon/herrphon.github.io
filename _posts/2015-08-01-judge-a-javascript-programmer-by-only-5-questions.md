@@ -12,4 +12,6 @@ tags: [javascript]
 
 [heise devel article](http://www.heise.de/developer/artikel/Hinterfragt-Woran-erkennt-man-einen-guten-JavaScript-Entwickler-2652128.html)
 
+<iframe width="854" height="480" src="https://www.youtube.com/embed/-q1z8BPFItw" frameborder="0" allowfullscreen></iframe>
+
 
