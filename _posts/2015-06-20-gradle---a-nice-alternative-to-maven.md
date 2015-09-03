@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gradle   A nice alternative to Maven"
+title: "Gradle - A nice alternative to Maven"
 description: "Sometimes Maven is just too ..."
 category: java 
 tags: [java, gradle]
@@ -19,11 +19,9 @@ If you haven't already, download and install it. E.g. on Mac, use:
 Gradle uses a config file called *build.gradle*. A good starting point for such a file is the following:
 
 
-```sh
-apply plugin: 'java'
 ```
+apply plugin: 'java'
 
-```sh
 rake test
 ```
 
