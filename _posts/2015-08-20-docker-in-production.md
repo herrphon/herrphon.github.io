@@ -1,13 +1,13 @@
 ---
-layout: page
-title: "Docker"
+layout: post
+title: "Docker in Production"
 description: ""
+category: docker 
+tags: [docker]
 ---
 {% include JB/setup %}
 
 
-
-* [docker on heroku](http://blog.heroku.com/archives/2015/8/18/docker_updates_local_data_stores_and_more_languages)
 
 
 * [Why Docker is Not Yet Succeeding Widely in Production](http://sirupsen.com/production-docker/)
