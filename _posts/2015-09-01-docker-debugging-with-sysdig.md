@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "sysdig"
+title: "Docker Debugging with sysdig"
 description: ""
-category: 
-tags: []
+category: docker
+tags: [docker]
 ---
 {% include JB/setup %}
 
@@ -33,7 +33,7 @@ tags: []
 [Youtube - The Dark Art of Container Monitoring](https://www.youtube.com/watch?v=S-4wxLgpZdE)
 
 
-<iframe width='970' height='546' src='//www.youtube.com/embed/S-4wxLgpZdE' frameborder='0' allowfullscreen></iframe>
+<iframe width='600' height='400' src='//www.youtube.com/embed/S-4wxLgpZdE' frameborder='0' allowfullscreen></iframe>
 
 
 
