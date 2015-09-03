@@ -6,6 +6,8 @@ description: ""
 {% include JB/setup %}
 
 
-http://socargus.verigy.net/soc/check_mk/
+[Nagios - CheckMK](http://socargus.verigy.net/soc/check_mk/)
+
+[List of Workstations](http://sockick3.verigy.net/pdadmin/)
 
 
