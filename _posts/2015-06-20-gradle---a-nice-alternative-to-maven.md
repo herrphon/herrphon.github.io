@@ -19,6 +19,18 @@ If you haven't already, download and install it. E.g. on Mac, use:
 Gradle uses a config file called *build.gradle*. A good starting point for such a file is the following:
 
 
+
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+
+<http://jekyllrb.com/docs/templates/>
+
+
+
 ```
 apply plugin: 'java'
 
