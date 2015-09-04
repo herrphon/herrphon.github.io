@@ -14,4 +14,3 @@ tagline: nothing yet
 
 
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
