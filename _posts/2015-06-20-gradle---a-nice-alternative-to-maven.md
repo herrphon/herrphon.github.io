@@ -30,7 +30,7 @@ end
 
 
 
-{% highlight %}
+{% highlight bash %}
 apply plugin: 'java'
 
 
