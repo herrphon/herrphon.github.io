@@ -28,11 +28,10 @@ If you haven't already, download and install it. E.g. on Mac, use:
 
 Gradle uses a config file called *build.gradle*. A good starting point for such a file is the following:
 
-<pre><code class="hljs groovy">
+{% highlight groovy %}
 apply plugin: 'java'
 
-
-</code></pre>
+{% endhighlight %}
 
 
 
