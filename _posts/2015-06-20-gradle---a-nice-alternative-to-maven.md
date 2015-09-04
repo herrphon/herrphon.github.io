@@ -20,21 +20,18 @@ Gradle uses a config file called *build.gradle*. A good starting point for such 
 
 
 
-{% highlight ruby %}
+{% highlight ruby linenos %}
 def foo
   puts 'foo'
 end
 {% endhighlight %}
 
 
-<http://jekyllrb.com/docs/templates/>
 
 
 
-```
+{% highlight %}
 apply plugin: 'java'
 
-rake test
-```
 
-
+{% endhighlight %}
