@@ -43,35 +43,25 @@ apply plugin: 'checkstyle'
 
 mainClassName = 'MyApp'
 
-// tag::repositories[]
 repositories {
     mavenCentral()
     jcenter()
 }
-// end::repositories[]
 
-
-// tag::jar[]
 jar {
     baseName = 'my_application'
     version =  '0.1.0'
 }
-// end::jar[]
 
-// tag::dependencies[]
 dependencies {
     compile "joda-time:joda-time:2.2"
     testCompile group: 'junit', name: 'junit', version: '4.11'
     testCompile "org.mockito:mockito-core:1.+"
 }
-// end::dependencies[]
 
-// tag::wrapper[]
 task wrapper(type: Wrapper) {
     gradleVersion = '2.3'
 }
-// end::wrapper[]
-
 
 tasks.withType(FindBugs) {
     reports {
@@ -87,7 +77,6 @@ task checkstyleHtml << {
 }
 
 checkstyleMain.finalizedBy checkstyleHtml
-
 </code></pre>
 
 
