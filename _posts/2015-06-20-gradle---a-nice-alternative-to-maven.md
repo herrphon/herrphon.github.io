@@ -162,8 +162,10 @@ package: tld.domain
 [INFO] Final Memory: 13M/57M
 [INFO] ------------------------------------------------------------------------
 $ cd test
+</code></pre>
 
-# INFO: it used to be gradle setupBuild, but now its:
+
+<pre><code># INFO: it used to be gradle setupBuild, but now its:
 $ gradle init --type pom
 :wrapper
 :init
@@ -174,4 +176,4 @@ BUILD SUCCESSFUL
 Total time: 3.937 secs
 
 This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.6/userguide/gradle_daemon.html
-
+</code></pre>
