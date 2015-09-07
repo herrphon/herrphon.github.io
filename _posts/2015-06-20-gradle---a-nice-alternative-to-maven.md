@@ -96,15 +96,13 @@ jar {
 }
 
 dependencies {
-    compile "joda-time:joda-time:2.2"
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.slf4j:slf4j-api:1.7.7'
+    // compile "joda-time:joda-time:2.2"
+    // testCompile 'org.testng:testng:6.8.1' and add
+    testCompile 'junit:junit:4.11'
     testCompile "org.mockito:mockito-core:1.+"
 }
 
-// the wrapper is already installed but just in case:
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.3'
-}
 
 test {
     testLogging {
