@@ -177,3 +177,21 @@ Total time: 3.937 secs
 
 This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.6/userguide/gradle_daemon.html
 </code></pre>
+
+
+## Run Tests 
+
+To have some more output, you can run the ``` test ``` task with the ``` -i ``` option:
+<pre><code> gradle test -i </code></pre>
+
+
+Or you can add the following to the build.gradle [*](http://stackoverflow.com/questions/3963708/gradle-how-to-display-test-results-in-the-console-in-real-time/4292739#4292739):
+
+<pre><code>test {
+    afterTest { desc, result -> 
+        println "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
+    }
+}
+</code></pre>
+
+
