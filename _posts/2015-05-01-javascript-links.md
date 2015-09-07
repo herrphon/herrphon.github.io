@@ -16,6 +16,7 @@ tags: [javascript]
 
 * [Javascript @ Crockford](http://javascript.crockford.com/)
 
+* [Google DevTools Course](http://discover-devtools.codeschool.com/)
 
 
 ## Making the web faster
