@@ -7,8 +7,8 @@ group: navigation
 {% include JB/setup %}
 
 
-</links.html>
-</quotes.html>
+<links.html>
+<quotes.html>
 
 ## all
 <ul>
