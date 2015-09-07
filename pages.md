@@ -7,10 +7,12 @@ group: navigation
 {% include JB/setup %}
 
 
-<links.html>
-<quotes.html>
+
+* [Links](/pages/links.html)
+* [Quotes](/pages/quotes.html)
 
 ## all
+
 <ul>
 {% assign pages_list = site.pages %}
 {% include JB/pages_list %}
