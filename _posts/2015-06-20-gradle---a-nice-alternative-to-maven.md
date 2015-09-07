@@ -131,3 +131,47 @@ checkstyleMain.finalizedBy checkstyleHtml
 
 JCenter seems to be a superset of MavenCentral. Among others, Android switched from MavenCentral to JCenter. Details [here](http://blog.bintray.com/2015/02/09/android-studio-migration-from-maven-central-to-jcenter/) and [here](http://stackoverflow.com/questions/24852219/android-buildscript-repositories-jcenter-vs-mavencentral)
 
+
+## Starting from an already existing Maven project
+
+<pre><code>$ mvn archetype:generate
+[INFO] Scanning for projects...
+Downloading: 
+[...]
+Confirm properties configuration:
+groupId: tld.domain
+artifactId: test
+version: 1.0-SNAPSHOT
+package: tld.domain
+ Y: : 
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: maven-archetype-quickstart:1.1
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: basedir, Value: /tmp
+[INFO] Parameter: package, Value: tld.domain
+[INFO] Parameter: groupId, Value: tld.domain
+[INFO] Parameter: artifactId, Value: test
+[INFO] Parameter: packageName, Value: tld.domain
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] project created from Old (1.x) Archetype in dir: /tmp/test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:02 min
+[INFO] Finished at: 2015-09-07T07:25:53+02:00
+[INFO] Final Memory: 13M/57M
+[INFO] ------------------------------------------------------------------------
+$ cd test
+
+# INFO: it used to be gradle setupBuild, but now its:
+$ gradle init --type pom
+:wrapper
+:init
+Maven to Gradle conversion is an incubating feature.
+
+BUILD SUCCESSFUL
+
+Total time: 3.937 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.6/userguide/gradle_daemon.html
+
