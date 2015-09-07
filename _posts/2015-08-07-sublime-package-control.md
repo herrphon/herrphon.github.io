@@ -16,6 +16,6 @@ tags: [sublime, ide, editor]
 
 <https://packagecontrol.io/docs/usage>
 
-``` CTRL + Shift + p ```` or ``` Command + Shift + p ```
+``` CTRL + Shift + p ``` or ``` Command + Shift + p ```
 
 
