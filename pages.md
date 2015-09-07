@@ -11,7 +11,9 @@ group: navigation
 * [Links](/pages/links.html)
 * [Quotes](/pages/quotes.html)
 
-## all
+
+
+## All Pages
 
 <ul>
 {% assign pages_list = site.pages %}
