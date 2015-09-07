@@ -188,8 +188,8 @@ To have some more output, you can run the ``` test ``` task with the ``` -i ``` 
 Or you can add the following to the build.gradle [*](http://stackoverflow.com/questions/3963708/gradle-how-to-display-test-results-in-the-console-in-real-time/4292739#4292739):
 
 <pre><code>test {
-    afterTest { desc, result -> 
-        println "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
+    testLogging {
+        exceptionFormat = 'full'
     }
 }
 </code></pre>
