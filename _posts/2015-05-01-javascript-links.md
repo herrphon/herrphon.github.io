@@ -27,3 +27,13 @@ tags: [javascript]
 
 ## Something for beginners
 <https://www.youtube.com/watch?v=Bv_5Zv5c-Ts>
+
+
+
+* undefined
+* null
+* boolean
+* number
+* string
+* symbol (ES6)
+

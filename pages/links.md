@@ -18,3 +18,7 @@ description: ""
 
 * [shout irc](http://shout-irc.com/)
 
+* [nice matchers for unittests](https://code.google.com/p/hamcrest/)
+  
+  ``` assertThat(a, is(equalsTo(b))); ``` 
+
