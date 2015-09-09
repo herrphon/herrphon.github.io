@@ -26,14 +26,24 @@ tags: [javascript]
 
 
 ## Something for beginners
-<https://www.youtube.com/watch?v=Bv_5Zv5c-Ts>
+[Javascript: Understanding the Weird Parts - The First 3.5 Hours](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
 
 
-
+Types:
 * undefined
 * null
+* NaN
 * boolean
 * number
 * string
 * symbol (ES6)
+
+
+
+
+* [Operator precedence](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+
+* [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+
+* [Equality comparisons and saneness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 
