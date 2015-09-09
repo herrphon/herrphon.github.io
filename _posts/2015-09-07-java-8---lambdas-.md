@@ -99,6 +99,7 @@ reduce( (int left, int right) -> Math.max(left, right) );
 
 reduce(Math::max);
 
+http://stackoverflow.com/questions/20001427/double-colon-operator-in-java-8/20001866#20001866
 
 {% endhighlight %}
 
