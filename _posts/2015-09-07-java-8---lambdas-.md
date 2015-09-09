@@ -80,6 +80,26 @@ Consumer<int> fortyTwo = () -> System.out.println(42);
 
 
 Supplier<T>
+
+
+// for filters:
+Predicate<Object> a = Objects::nonNull;
+Predicate<Object> b = x -> x != null;
+
+
+
+reduce(new IntBinaryOperator() {
+    int applyAsInt(int left, int right) {
+        return Math.max(left, right);
+    }
+});
+
+reduce( (int left, int right) -> Math.max(left, right) );
+
+
+reduce(Math::max);
+
+
 {% endhighlight %}
 
 
