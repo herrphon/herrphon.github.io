@@ -104,6 +104,24 @@ http://stackoverflow.com/questions/20001427/double-colon-operator-in-java-8/2000
 {% endhighlight %}
 
 
+
+
+{% highlight java %}
+public interface BiPredicate<T, U> {
+    boolean test(T t, U u);
+}
+public interface BiFunction<T, U, R> {
+    R apply(T t, U u);
+}
+
+
+BiPredicate<String,String>        sp1 =  (s,t) -> s.equalsIgnoreCase(t) ;                         // 1
+BiFunction<String,String,Boolean> sp2 =  (s,t) -> s.equalsIgnoreCase(t) ;                         // 2
+{% endhighlight %}
+
+
+
+
 ## Read more here
 
 * <https://blog.codecentric.de/2013/10/java-8-erste-schritte-mit-lambdas-und-streams/>
@@ -111,3 +129,4 @@ http://stackoverflow.com/questions/20001427/double-colon-operator-in-java-8/2000
 * <http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html>
 * <http://www.oracle.com/technetwork/articles/java/architect-lambdas-part1-2080972.html>
 
+* <http://www.tutego.de/blog/javainsel/2014/03/funktionale-schnittstelle-aus-dem-java-util-function-paket/>
