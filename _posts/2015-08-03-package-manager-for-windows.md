@@ -39,7 +39,57 @@ Enjoy!
 
 ## My Favorite Packages
 
+
+
+* 7zip
+
+* AutoRuns
+
+* calibre
+
+* ChocolateyGUI
+
 * ConEmu <http://sourceforge.net/projects/conemu/>
 
-* ...
+* eclipse
+
+* gimp
+
+* git
+
+* gradle
+
+* intellijidea-community
+
+* jdk8
+
+* mpc-hc
+
+* notepadplusplus
+
+* poshgit
+
+* PowerShell 
+
+* python
+
+* ruby
+
+* ruby2.devkit
+
+* RubyMine
+
+* sublime
+
+* thunderbird 
+
+* virtualbox 
+
+* vlc
+
+* winscp
+
+
+
+
 
