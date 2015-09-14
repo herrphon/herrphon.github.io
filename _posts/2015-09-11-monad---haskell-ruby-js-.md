@@ -15,7 +15,7 @@ tags: [monad, haskell, ruby]
 2. bind-Operator (&gt;&gt;=)
     <pre><code>  (>>=) :: m a -> (a -> m b) -> m b   </code></pre>
 
-3. Kleisli-Operator(&gt; = &gt;)
+3. Kleisli-Operator(&gt;=&gt;)
     <pre><code>   (>=>) :: (a -> m b) -> (b -> m c) -> (a -> m c)   </code></pre>
 
 4. Functor
