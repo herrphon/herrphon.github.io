@@ -10,26 +10,18 @@ tags: [monad, haskell, ruby]
 
 
 1. Einheitsfunktion (return):
-    <pre><code>
-      return :: a -> a
-    </code></pre>
+    <pre><code> return :: a -> a  </code></pre>
 
 2. bind-Operator (&gt;&gt;=)
-    <pre><code>
-      (>>=) :: m a -> (a -> m b) -> m b
-    </code></pre>
+    <pre><code>  (>>=) :: m a -> (a -> m b) -> m b   </code></pre>
 
 3. Kleisli-Operator(&gt; = &gt;)
-    <pre><code>
-      (>=>) :: (a -> m b) -> (b -> m c) -> (a -> m c)
-    </code></pre>
-
-
+    <pre><code>   (>=>) :: (a -> m b) -> (b -> m c) -> (a -> m c)   </code></pre>
 
 4. Functor
-    <pre><code>
-      fmap :: (a -> b) -> m a -> m b
-    </code></pre>
+    <pre><code>   fmap :: (a -> b) -> m a -> m b    </code></pre>
+
+
 
 https://wiki.haskell.org/Monad_laws
 
