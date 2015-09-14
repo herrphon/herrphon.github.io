@@ -35,3 +35,11 @@ The *-y* option automatically accepts the license stuff.
 
 
 Enjoy!
+
+
+## My Favorite Packages
+
+* ConEmu <http://sourceforge.net/projects/conemu/>
+
+* ...
+

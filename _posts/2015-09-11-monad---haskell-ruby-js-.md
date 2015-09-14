@@ -9,6 +9,12 @@ tags: [monad, haskell, ruby]
 
 
 
+
+<http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html>
+<http://adit.io/posts/2013-06-10-three-useful-monads.html>
+
+
+
 1. Einheitsfunktion (return):
     <pre><code> return :: a -> a  </code></pre>
 
@@ -21,7 +27,14 @@ tags: [monad, haskell, ruby]
 4. Functor
     <pre><code>   fmap :: (a -> b) -> m a -> m b    </code></pre>
 
+5. join
+    <pre><code>   join :: m (m a) -> m a    </code></pre>
 
+6. empty
+
+7. +
+
+8.
 
 https://wiki.haskell.org/Monad_laws
 
@@ -51,6 +64,10 @@ A monad, for our purposes, is made up of three things:
 
 
 ## Javascript
+
+http://igstan.ro/posts/2011-05-02-understanding-monads-with-javascript.html
+
+
 
 {% highlight javascript %}
 function MONAD() {
