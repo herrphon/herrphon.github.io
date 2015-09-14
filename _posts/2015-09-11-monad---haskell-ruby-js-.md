@@ -125,6 +125,29 @@ monad.bind(alert);
 
 
 
+Making ugly things like with promises:
+
+{% highlight javascript %}
+getStudent(name, function student)) {
+    getLatestGrade(student, function (grade) {
+        console.log(grade);
+        logOut();
+    });
+});
+{% endhighlight %}
+
+Look like that:
+
+{% highlight javascript %}
+getStudent(name)
+    .then(getLatestGrade)
+    .then(console.log)
+    .catch(logError)
+    .then(logOut)
+{% endhighlight %}
+
+
+
 ## Haskell
 
 [1,2,3] >>= (\ x -> [1,2,3] >>= (\y -> return (x/=y) >>= (\r -> case r of
@@ -176,9 +199,17 @@ Promises are an excellent mechanism for managing asynchronicity. A promise is an
 Every promise has a corresponding resolver that is used to ultimately assign a value to the promise.
 
 A Promise has one of 3 states:  
-* kept
 * pending
-* broken
+* kept / fullfilled: has a value
+* broken / rejected: has a reason
+
+
+{% highlight javascript %}
+pending ----> kept
+        \---> broken
+{% endhighlight %}
+
+
 
 A promise is an event generator. It fires its events when the value of the promise is ultimately known. At any time after the making the promise, event handling functions can be registered with the promise, which will be called in order with the promise's value when it is known. A promise can accept functions that will be called 
 

@@ -47,3 +47,34 @@ Types:
 
 * [Equality comparisons and saneness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)
 
+
+
+
+<pre><code>function getCounter() {
+    var count = 0;
+    return {
+        incr: function () { return ++count; },
+        decr: function () { return --count; }
+    };
+}
+</code></pre>
+
+
+--------------------------------
+| getCounter                   |
+|                              |
+| |                     |-     |
+| |                     ||-    |
+| |               ______|||    |
+| |  _______/--> | incr |||    |
+| |  |count|     -------|||    |
+| |  -------      ______|||    |
+| |         \--> | decr |||    |
+| |              -------|||    |
+| |                     |||    |
+| |                     |||    |
+| |---------------------|||    |
+|  |---------------------||    |
+|   |---------------------|    |
+|                              |
+--------------------------------
