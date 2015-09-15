@@ -95,6 +95,9 @@ A monad, for our purposes, is made up of three things:
 
 
 
+[GoGaRuCo 2014- Refactoring Ruby with Monads](https://www.youtube.com/watch?t=13&v=uTR__8RvgvM)
+<http://codon.com/refactoring-ruby-with-monads>
+<https://github.com/tomstuart/monads>
 
 
 ## Javascript
@@ -146,6 +149,8 @@ getStudent(name)
     .then(logOut)
 {% endhighlight %}
 
+
+<https://speakerdeck.com/kerrick/javascript-promises-thinking-sync-in-an-async-world>
 
 
 ## Haskell

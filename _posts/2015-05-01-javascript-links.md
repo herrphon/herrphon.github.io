@@ -12,6 +12,7 @@ tags: [javascript]
 
 * [JSHint](http://www.jshint.com/)
 
+
 * [Learning JavaScript Design Patterns (by Addy Osmani)](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
 * [Javascript @ Crockford](http://javascript.crockford.com/)
@@ -62,7 +63,7 @@ Types:
 
 --------------------------------
 | getCounter                   |
-|                              |
+| _______________________      |
 | |                     |-     |
 | |                     ||-    |
 | |               ______|||    |
@@ -78,3 +79,9 @@ Types:
 |   |---------------------|    |
 |                              |
 --------------------------------
+
+
+
+## Node.js
+
+<https://www.youtube.com/watch?v=czmulJ9NBP0>
