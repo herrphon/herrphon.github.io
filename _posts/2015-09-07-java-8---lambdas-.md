@@ -122,6 +122,60 @@ BiFunction<String,String,Boolean> sp2 =  (s,t) -> s.equalsIgnoreCase(t) ;       
 
 
 
+{% endhighlight %}
+List<String> myList = new ArrayList<String>();
+List<String> myList = new ArrayList<>();
+
+myList.forEach(new Consumer<String>() {
+    public void accept(String s) {
+
+    }
+} )
+
+
+myList.forEach(s -> System.out.println(s));
+
+
+
+
+myList.stream().filter(new Predicate<String>() {
+    public boolean test(String s) {
+        return false;
+    }
+})
+
+myList.stream().filter(s -> false);
+myList.stream().filter(s -> {doSomething(); return false;} );
+
+
+
+
+List<String> myList = new ArrayList<>(
+                Arrays.asList("abc", "", "   def   ", null, "ghi", "   ", "xzy")
+            );
+
+myList.removeIf( s -> s == null );
+myList.replaceAll( String::trim );
+myList.removeIf( String::isEmpty );
+myList.forEach( System.out::println );
+
+
+List<File> fileList = myFileList.collect( 
+                          Collectors.toCollection(
+                              ArrayList::new 
+                          ) 
+                      );
+
+{% highlight java %}
+
+
+<http://www.torsten-horn.de/techdocs/java-lambdas.htm>
+
+
+
+
+
+
 ## Read more here
 
 * <https://blog.codecentric.de/2013/10/java-8-erste-schritte-mit-lambdas-und-streams/>
