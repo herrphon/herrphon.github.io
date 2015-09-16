@@ -115,14 +115,13 @@ public interface BiFunction<T, U, R> {
 }
 
 
-BiPredicate<String,String>        sp1 =  (s,t) -> s.equalsIgnoreCase(t) ;                         // 1
-BiFunction<String,String,Boolean> sp2 =  (s,t) -> s.equalsIgnoreCase(t) ;                         // 2
+BiPredicate<String,String>        sp1 =  (s,t) -> s.equalsIgnoreCase(t); // 1
+BiFunction<String,String,Boolean> sp2 =  (s,t) -> s.equalsIgnoreCase(t); // 2
 {% endhighlight %}
 
 
 
-
-{% endhighlight %}
+{% highlight java %}
 List<String> myList = new ArrayList<String>();
 List<String> myList = new ArrayList<>();
 
@@ -166,7 +165,7 @@ List<File> fileList = myFileList.collect(
                           ) 
                       );
 
-{% highlight java %}
+{% endhighlight %}
 
 
 <http://www.torsten-horn.de/techdocs/java-lambdas.htm>
