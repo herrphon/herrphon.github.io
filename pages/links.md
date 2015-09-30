@@ -22,3 +22,7 @@ description: ""
   
   ``` assertThat(a, is(equalsTo(b))); ``` 
 
+* [node.js](https://www.youtube.com/watch?v=czmulJ9NBP0)
+
+* [scala](https://www.youtube.com/watch?v=DzFt0YkZo8M)
+
