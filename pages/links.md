@@ -26,3 +26,10 @@ description: ""
 
 * [scala](https://www.youtube.com/watch?v=DzFt0YkZo8M)
 
+
+* [SRE](http://blog.marc-seeger.de/2015/05/01/sre-interviews-in-silicon-valley/)
+
+* [codon talks](http://codon.com/talks)
+
+
+
