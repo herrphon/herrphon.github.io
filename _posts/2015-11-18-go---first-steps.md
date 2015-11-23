@@ -26,6 +26,10 @@ go get -u -v golang.org/x/tools/cmd/gorename
 
 
 ### Sublime
+https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts
+https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings
+
+http://stackoverflow.com/questions/17742781/keyboard-shortcut-to-comment-lines-in-sublime-text-3
 
 git
 gitgutter
