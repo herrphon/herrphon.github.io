@@ -67,6 +67,10 @@ http://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go
 
 https://www.binpress.com/tutorial/getting-started-with-go-and-test-driven-development/160
 
+https://medium.com/@matryer/5-simple-tips-and-tricks-for-writing-unit-tests-in-golang-619653f90742#.ydoq3sj64
+
+https://www.binpress.com/tutorial/getting-started-with-go-and-test-driven-development/160
+
 
 
 
