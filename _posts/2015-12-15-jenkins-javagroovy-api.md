@@ -19,3 +19,5 @@ The accessor to get the jenkins singleton can be found there.
 Jenkins.getInstance()
 </code></pre>
 
+
+Some examples can also be found here: https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Script+Console
