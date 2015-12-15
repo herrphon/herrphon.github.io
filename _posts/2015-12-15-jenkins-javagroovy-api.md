@@ -20,4 +20,8 @@ Jenkins.getInstance()
 </code></pre>
 
 
-Some examples can also be found here: https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Script+Console
+Some examples can also be found here: 
+
+* (https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Script+Console)
+* (http://pghalliday.com/jenkins/groovy/sonar/chef/configuration/management/2014/09/21/some-useful-jenkins-groovy-scripts.html)
+
