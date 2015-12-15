@@ -2,8 +2,8 @@
 layout: post
 title: "Go   First Steps"
 description: ""
-category: 
-tags: []
+category: go
+tags: [golang]
 ---
 {% include JB/setup %}
 
