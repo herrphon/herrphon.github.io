@@ -12,9 +12,8 @@ tags: [docker, systemd, jenkins]
 
 
 
-<pre><code>
-#!/bin/bash -e
-# Parameters:
+<pre><code>#!/bin/bash -e
+# Environment parameters which could be injected by Jenkins:
 VERSION=1.2.3
 FORCE=false              # as provided by the jenkins build parameter type boolean
 DOCKERFILE_DIR=docker    # location where the dockerfile is located in the repository
@@ -45,9 +44,8 @@ docker push ${DOCKER_REGISTRY}/${IMAGE_NAME}:${VERSION}
 
 # Installation of the application with systemd and docker
 
-<pre><code>
-#!/bin/bash -e
-# Parameters:
+<pre><code>#!/bin/bash -e
+# Environment parameters which could be injected by Jenkins:
 DOCKER_REGISTRY=https://registry.tld:5000
 IMAGE_NAME=john.doe/myapp
 VERSION=1.2.3
@@ -92,12 +90,11 @@ EOF
 
 
 
-# Updating the version on the host:
+# Starting the application with the new version on a host:
 
 
-<pre><code>
-#!/bin/bash -e
-# Parameters:
+<pre><code>#!/bin/bash -e
+# Environment parameters which could be injected by Jenkins:
 VERSION=1.2.3
 DOCKER_REGISTRY=https://registry.tld:5000
 IMAGE_NAME=john.doe/myapp
@@ -127,8 +124,14 @@ echo "#######################################################"
 systemctl status ${DOCKER_CONTAINER_NAME}
 </code></pre>
 
-<pre><code>
-#!/bin/bash -e
+
+
+# Docker tail until server is up
+
+<pre><code>#!/bin/bash -e
+# Environment parameters which could be injected by Jenkins:
+DOCKER_CONTAINER_NAME=myapp
+
 echo "\nLogs from docker container ${DOCKER_CONTAINER_NAME}:"
 timeout 120 sh -c 'docker logs -f ${DOCKER_CONTAINER_NAME} 2>&1 | { sed "/Server startup in/ q" && kill $$ ;}' || true
 </code></pre>
