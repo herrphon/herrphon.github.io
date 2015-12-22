@@ -7,7 +7,7 @@ tags: [docker, systemd, jenkins]
 ---
 {% include JB/setup %}
 
-# Build Simple Image and Push to Registry:
+# Build a Simple Image and Push it to the Registry:
 
 
 
