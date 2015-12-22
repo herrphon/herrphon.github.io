@@ -17,7 +17,7 @@ tags: [docker, systemd, jenkins]
 # Parameters:
 VERSION=1.2.3
 FORCE=false              # as provided by the jenkins build parameter type boolean
-DOCKERFILE_DIR=docker    # location where the dockerfile is located
+DOCKERFILE_DIR=docker    # location where the dockerfile is located in the repository
 DOCKER_REGISTRY=https://registry.tld:5000
 IMAGE_NAME=john.doe/myapp
 
@@ -51,17 +51,18 @@ docker push ${DOCKER_REGISTRY}/${IMAGE_NAME}:${VERSION}
 DOCKER_REGISTRY=https://registry.tld:5000
 IMAGE_NAME=john.doe/myapp
 VERSION=1.2.3
-CONTAINER_NAME=myapp
+DOCKER_CONTAINER_NAME=myapp
 
 
-cat > /etc/sysconfig/${CONTAINER_NAME} << EOF
-DOCKER_IMAGE=${IMAGE_NAME}:$VERSION
-LOCAL_DIR=/data/${CONTAINER_NAME}
+cat > /etc/sysconfig/${DOCKER_CONTAINER_NAME} << EOF
+DOCKER_IMAGE=${IMAGE_NAME}:${VERSION}
+DOCKER_CONTAINER_NAME=${DOCKER_CONTAINER_NAME}
+LOCAL_DIR=/data/${DOCKER_CONTAINER_NAME}
 OTHER_OPTIONS=something
 EOF
 
 
-cat > /usr/lib/systemd/system/${CONTAINER_NAME}.service << EOF
+cat > /usr/lib/systemd/system/${DOCKER_CONTAINER_NAME}.service << EOF
 [Unit]
 Description=Some description here...
 Requires=docker.service
@@ -71,17 +72,17 @@ After=docker.service
 Restart=on-failure
 RestartSec=10
 TimeoutStartSec=0
-EnvironmentFile=-/etc/sysconfig/${CONTAINER_NAME}
-ExecStartPre=-/usr/bin/docker kill ${DOCKER_NAME}
-ExecStartPre=-/usr/bin/docker rm ${DOCKER_NAME}
-ExecStartPre=/usr/bin/docker pull ${DOCKER_IMAGE}
-ExecStart=/usr/bin/docker run --name ${DOCKER_NAME} \
-                              -p 8080:8080   \
-                              -e "OTHER_OPTIONS=${OTHER_OPTIONS}"  \
-                              -v ${LOCAL_DIR}:/data  \
-                              -v /etc/localtime:/etc/localtime:ro  \
-                              ${DOCKER_IMAGE}
-ExecStop=/usr/bin/docker stop --time=10 ${DOCKER_NAME}
+EnvironmentFile=-/etc/sysconfig/${DOCKER_CONTAINER_NAME}
+ExecStartPre=-/usr/bin/docker kill \${DOCKER_CONTAINER_NAME}
+ExecStartPre=-/usr/bin/docker rm \${DOCKER_CONTAINER_NAME}
+ExecStartPre=/usr/bin/docker pull \${DOCKER_IMAGE}
+ExecStart=/usr/bin/docker run --name \${DOCKER_CONTAINER_NAME}      \
+                              -p 8080:8080                          \
+                              -e "OTHER_OPTIONS=\${OTHER_OPTIONS}"  \
+                              -v \${LOCAL_DIR}:/data                \
+                              -v /etc/localtime:/etc/localtime:ro   \
+                              \${DOCKER_IMAGE}
+ExecStop=/usr/bin/docker stop --time=10 \${DOCKER_CONTAINER_NAME} 
 
 [Install]
 WantedBy=multi-user.target
@@ -100,10 +101,12 @@ EOF
 VERSION=1.2.3
 DOCKER_REGISTRY=https://registry.tld:5000
 IMAGE_NAME=john.doe/myapp
+DOCKER_CONTAINER_NAME=myapp   # is equal to service name
 
-cat > /etc/sysconfig/${CONTAINER_NAME} << EOF
+
+cat > /etc/sysconfig/${DOCKER_CONTAINER_NAME} << EOF
 DOCKER_IMAGE=${IMAGE_NAME}:$VERSION
-LOCAL_DIR=/data/${CONTAINER_NAME}
+LOCAL_DIR=/data/${DOCKER_CONTAINER_NAME}
 OTHER_OPTIONS=something
 EOF
 
@@ -112,20 +115,20 @@ echo "#######################################################"
 echo "# Starting with the following config options:         #"
 echo "#######################################################"
 
-cat /etc/sysconfig/${CONTAINER_NAME}
+cat /etc/sysconfig/${DOCKER_CONTAINER_NAME}
 echo 
 
-systemctl restart ${CONTAINER_NAME}
+systemctl restart ${DOCKER_CONTAINER_NAME}
 
 echo "#######################################################"
 echo "# Status                                              #"
 echo "#######################################################"
 
-systemctl status ${CONTAINER_NAME}
+systemctl status ${DOCKER_CONTAINER_NAME}
 </code></pre>
 
 <pre><code>
 #!/bin/bash -e
-echo "\nLogs from docker container ${CONTAINER_NAME}:"
-timeout 120 sh -c 'docker logs -f ${CONTAINER_NAME} 2>&1 | { sed "/Server startup in/ q" && kill $$ ;}' || true
+echo "\nLogs from docker container ${DOCKER_CONTAINER_NAME}:"
+timeout 120 sh -c 'docker logs -f ${DOCKER_CONTAINER_NAME} 2>&1 | { sed "/Server startup in/ q" && kill $$ ;}' || true
 </code></pre>
