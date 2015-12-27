@@ -15,11 +15,8 @@ tags: []
 ## Rails
 
 
-<pre><code>
-
-    rails s -b 0.0.0.0 
-    ngrok 3000
-
+<pre><code>rails s -b 0.0.0.0 
+ngrok 3000
 </code></pre>
 
 
