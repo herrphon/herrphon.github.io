@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Javascript Links"
+title: "Javascript Stuff"
 description: ""
 category: javascript 
 tags: [javascript]

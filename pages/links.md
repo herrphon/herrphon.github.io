@@ -42,8 +42,11 @@ description: ""
 
 
 
-
 ### Other Stuff
 
 * [SRE](http://blog.marc-seeger.de/2015/05/01/sre-interviews-in-silicon-valley/)
+
+* <https://developer.atlassian.com/blog/2015/08/optional-broken/>
+
+* <http://www.macbreaker.com/2015/01/virtualbox-yosemite-zone.html>
 
