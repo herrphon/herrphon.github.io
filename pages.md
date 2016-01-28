@@ -39,6 +39,6 @@ group: navigation
 
 
 
-## Other
+#### Other
 
 * [Index of all Pages](/pages/index.html)
