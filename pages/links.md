@@ -14,7 +14,7 @@ description: ""
 
 
 
-### Web tools:
+## Web Applications / Web Tools
 
 * [Loggly](http://loggly.com)
 
@@ -46,7 +46,7 @@ description: ""
 * [cdnjs](https://cdnjs.com/) - CDN links for js and css libraries 
 
 
-### Docker
+## Docker
 
 * [Heroku Blog - Docker Support](http://blog.heroku.com/archives/2015/8/18/docker_updates_local_data_stores_and_more_languages)
 
@@ -61,16 +61,26 @@ description: ""
 
 
 
-CoreOS   Flannel   Overlay Network
+CoreOS:
 
-* [Flannel](https://coreos.com/blog/introducing-rudder/)
+* [Flannel](https://coreos.com/blog/introducing-rudder/) - An Overlay Network 
 
 * <https://www.youtube.com/embed/uC8Y_TGtwPo>
 
 
+Project Atomic - RHEL Atomic Host:
 
 
-### Other Stuff
+* [Project Atomic](http://www.projectatomic.io/docs/gettingstarted/)
+
+* [RHEL Atomic Host](https://access.redhat.com/articles/rhel-atomic-getting-started)
+
+
+
+
+
+
+## Other Stuff
 
 * [SRE interviews in Silicon Valley](http://blog.marc-seeger.de/2015/05/01/sre-interviews-in-silicon-valley/)
 
