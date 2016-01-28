@@ -72,9 +72,8 @@ tags: [monad, haskell, ruby]
 
 
 
+* [Douglas Crockford: Monads and Gonads (YUIConf Evening Keynote)](https://www.youtube.com/watch?v=dkZFtimgAcM)
 
-
-<https://www.youtube.com/watch?v=dkZFtimgAcM>
 
 
 ## Ruby
@@ -155,9 +154,11 @@ getStudent(name)
 
 ## Haskell
 
+<pre><code>
 [1,2,3] >>= (\ x -> [1,2,3] >>= (\y -> return (x/=y) >>= (\r -> case r of
  True -> return (x,y) 
   _    -> fail "")))
+</code></pre>
 
 
 
