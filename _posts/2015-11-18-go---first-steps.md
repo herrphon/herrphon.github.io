@@ -47,6 +47,8 @@ Sublime Plugins:
 * maybe totally unnecessary: <https://packagecontrol.io/packages/GoTools>
 
 
+* all plugins available: <https://packagecontrol.io/search/golang>
+
 
 
 ## intro
