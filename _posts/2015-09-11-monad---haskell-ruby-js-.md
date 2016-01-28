@@ -74,12 +74,12 @@ tags: [monad, haskell, ruby]
 
 
 
-https://www.youtube.com/watch?v=dkZFtimgAcM
+<https://www.youtube.com/watch?v=dkZFtimgAcM>
 
 
 ## Ruby
 
-http://www.idryman.org/blog/2014/01/23/yet-another-monad-tutorial/
+<http://www.idryman.org/blog/2014/01/23/yet-another-monad-tutorial/>
 
 
 
@@ -102,7 +102,7 @@ A monad, for our purposes, is made up of three things:
 
 ## Javascript
 
-http://igstan.ro/posts/2011-05-02-understanding-monads-with-javascript.html
+<http://igstan.ro/posts/2011-05-02-understanding-monads-with-javascript.html>
 
 [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 [Simulation on how the JS call stack and event queue work](http://latentflip.com/loupe/)

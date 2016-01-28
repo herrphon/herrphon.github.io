@@ -17,73 +17,71 @@ tags: [golang]
 
 ### Install tools
 
-go get -u -v github.com/nsf/gocode
-go get -u -v github.com/rogpeppe/godef
-go get -u -v golang.org/x/tools/cmd/goimports
-go get -u -v golang.org/x/tools/cmd/oracle
-go get -u -v golang.org/x/tools/cmd/gorename
+    go get -u -v github.com/nsf/gocode
+    go get -u -v github.com/rogpeppe/godef
+    go get -u -v golang.org/x/tools/cmd/goimports
+    go get -u -v golang.org/x/tools/cmd/oracle
+    go get -u -v golang.org/x/tools/cmd/gorename
 
 
 
 ### Sublime
-https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts
-https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings
 
-http://stackoverflow.com/questions/17742781/keyboard-shortcut-to-comment-lines-in-sublime-text-3
-
-git
-gitgutter
+* <https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts>
+* <https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings>
+* <http://stackoverflow.com/questions/17742781/keyboard-shortcut-to-comment-lines-in-sublime-text-3>
 
 
-https://packagecontrol.io/packages/GoSublime
+* [git]()
+* [gitgutter]()
 
-
-https://packagecontrol.io/packages/GoTools
+* <https://packagecontrol.io/packages/GoSublime>
+* <https://packagecontrol.io/packages/GoTools>
 
 
 relatively new - but the official plugin:
-https://packagecontrol.io/packages/Golang%20Build
+* <https://packagecontrol.io/packages/Golang%20Build>
 
 
 ## intro
-https://www.youtube.com/watch?v=hha7d97VYkM
+<https://www.youtube.com/watch?v=hha7d97VYkM>
 
 
 
 ## setup ide
-https://golang.org/doc/code.html
-http://dave.cheney.net/2014/12/01/five-suggestions-for-setting-up-a-go-project
+<https://golang.org/doc/code.html>
+<http://dave.cheney.net/2014/12/01/five-suggestions-for-setting-up-a-go-project>
 
 
 ## testing and tdd
-https://golang.org/pkg/testing/
+<https://golang.org/pkg/testing/>
 
 e.g. fib performance tests: 
-http://dave.cheney.net/2013/06/09/writing-table-driven-tests-in-go
-https://github.com/davecheney/fib/blob/master/fib_test.go
+<http://dave.cheney.net/2013/06/09/writing-table-driven-tests-in-go>
+<https://github.com/davecheney/fib/blob/master/fib_test.go>
 
-http://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go
+<http://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go>
 
 
-https://www.binpress.com/tutorial/getting-started-with-go-and-test-driven-development/160
+<https://www.binpress.com/tutorial/getting-started-with-go-and-test-driven-development/160>
 
-https://medium.com/@matryer/5-simple-tips-and-tricks-for-writing-unit-tests-in-golang-619653f90742#.ydoq3sj64
+<https://medium.com/@matryer/5-simple-tips-and-tricks-for-writing-unit-tests-in-golang-619653f90742#.ydoq3sj64>
 
-https://www.binpress.com/tutorial/getting-started-with-go-and-test-driven-development/160
+<https://www.binpress.com/tutorial/getting-started-with-go-and-test-driven-development/160>
 
 
 
 
 ## reference
 
-https://golang.org/ref/spec
-(e.g. https://golang.org/ref/spec#Comparison_operators)
+<https://golang.org/ref/spec>
+(e.g. <https://golang.org/ref/spec#Comparison_operators>)
 
 
-http://blog.golang.org/
+<http://blog.golang.org/>
 
 
-http://blog.golang.org/gouk15
+<http://blog.golang.org/gouk15>
 
 
 
@@ -106,23 +104,23 @@ reference types:
 
 
 ## slices - slices vs arrays
-https://blog.golang.org/go-slices-usage-and-internals
+<https://blog.golang.org/go-slices-usage-and-internals>
 
 ## map
-https://blog.golang.org/go-maps-in-action
+<https://blog.golang.org/go-maps-in-action>
 
 
 ## json
-https://blog.golang.org/json-and-go
-https://www.youtube.com/watch?v=2rHgpx2gClk
+<https://blog.golang.org/json-and-go>
+<https://www.youtube.com/watch?v=2rHgpx2gClk>
 
 
 ## code review comments
-https://github.com/golang/go/wiki/CodeReviewComments
+<https://github.com/golang/go/wiki/CodeReviewComments>
 
 
 ## profiling
-http://blog.golang.org/profiling-go-programs
+<http://blog.golang.org/profiling-go-programs>
 
 
 

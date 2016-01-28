@@ -189,7 +189,9 @@ To have some more output, you can run the ``` test ``` task with the ``` -i ``` 
 <pre><code> gradle test -i </code></pre>
 
 
-Or you can add the following to the build.gradle [*](http://mrhaki.blogspot.de/2014/10/gradle-goodness-show-standard-out-or.html) [*](http://stackoverflow.com/questions/3963708/gradle-how-to-display-test-results-in-the-console-in-real-time/4292739#4292739):
+Or you can add the following to the build.gradle 
+[1](http://mrhaki.blogspot.de/2014/10/gradle-goodness-show-standard-out-or.html) 
+[2](http://stackoverflow.com/questions/3963708/gradle-how-to-display-test-results-in-the-console-in-real-time/4292739#4292739):
 
 <pre><code>test {
     testLogging {

@@ -9,6 +9,7 @@ tags: [jenkins]
 
 
 
+Content of cronjob script:
 
 <pre><code>#!/bin/bash
 
@@ -25,6 +26,7 @@ git push origin master
 </code></pre>
 
 
+Content of .gitignore file:
 
 <pre><code># Ignoring everything
 *

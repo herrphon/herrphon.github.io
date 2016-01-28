@@ -8,7 +8,7 @@ tags: []
 {% include JB/setup %}
 
 
-
+Here is a small Dockerfile which runs a commandline online docker client:
 
 <pre><code>FROM centos
 RUN yum install -y wget
