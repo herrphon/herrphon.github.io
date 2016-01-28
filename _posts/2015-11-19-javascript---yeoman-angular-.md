@@ -8,31 +8,31 @@ tags: []
 {% include JB/setup %}
 
 
-http://yeoman.io/codelab/write-app.html
+* <http://yeoman.io/codelab/write-app.html>
 
-http://jasonwatmore.com/post/2014/05/26/AngularJS-Basic-HTTP-Authentication-Example.aspx
-
-
-http://jasonwatmore.com/post/2015/03/10/AngularJS-User-Registration-and-Login-Example.aspx
+* <http://jasonwatmore.com/post/2014/05/26/AngularJS-Basic-HTTP-Authentication-Example.aspx>
 
 
-http://www.toptal.com/angular-js/your-first-angularjs-app-part-2-scaffolding-building-and-testing
+* <http://jasonwatmore.com/post/2015/03/10/AngularJS-User-Registration-and-Login-Example.aspx>
 
 
-https://www.airpair.com/js/using-angularjs-yeoman
+* <http://www.toptal.com/angular-js/your-first-angularjs-app-part-2-scaffolding-building-and-testing>
 
 
-https://thinkster.io/angularfire-slack-tutorial
+* <https://www.airpair.com/js/using-angularjs-yeoman>
 
 
-https://docs.angularjs.org/tutorial/index
+* <https://thinkster.io/angularfire-slack-tutorial>
 
 
-
-http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/
+* <https://docs.angularjs.org/tutorial/index>
 
 
 
-http://raibledesigns.com/rd/
+* <http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/>
+
+
+
+* <http://raibledesigns.com/rd/>
 
 

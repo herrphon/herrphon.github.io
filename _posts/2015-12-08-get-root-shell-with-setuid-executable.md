@@ -9,8 +9,7 @@ tags: []
 
 
 
-<pre><code>
-#include &lt;unistd.h&gt;
+<pre><code>#include &lt;unistd.h&gt;
 
 int main() {
   const char *b = "/bin/bash";

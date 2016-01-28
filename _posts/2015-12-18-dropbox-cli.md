@@ -10,8 +10,7 @@ tags: []
 
 
 
-<pre><code>
-FROM centos
+<pre><code>FROM centos
 RUN yum install -y wget
 RUN wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86_64"
 RUN tar -xvzf dropbox.tar.gz

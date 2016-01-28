@@ -21,7 +21,7 @@ tags: []
 
 
 * Java concurrency - how to protect data from concurrent access. 
-http://www.javaworld.com/article/2078809/java-concurrency/java-concurrency-java-101-the-next-generation-java-concurrency-without-the-pain-part-1.html
+<http://www.javaworld.com/article/2078809/java-concurrency/java-concurrency-java-101-the-next-generation-java-concurrency-without-the-pain-part-1.html>
 
 * Explain the use of try, catch, finally. 
 

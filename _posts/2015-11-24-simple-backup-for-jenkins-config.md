@@ -10,8 +10,7 @@ tags: [jenkins]
 
 
 
-<pre><code>
-#!/bin/bash
+<pre><code>#!/bin/bash
 
 git config user.name || git config --global user.name "jenkins"
 git config user.email || git config --global user.email "jenkins@host.tld"
@@ -27,8 +26,7 @@ git push origin master
 
 
 
-<pre><code>
-# Ignoring everything
+<pre><code># Ignoring everything
 *
 
 # Except xml files in users and jobs
