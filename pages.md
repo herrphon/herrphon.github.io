@@ -15,7 +15,7 @@ group: navigation
 
 ## Programming Stuff
 
-* [Git](/pages/git.html)
+* [Git](/pages/git/git.html)
 
 * [Java](/pages/java/index.html)
 
@@ -33,7 +33,9 @@ group: navigation
 
 ## DevOps
 
-* [Docker](/pages/docker/index.html)
+* [Docker](/pages/devops/docker.html)
+
+* [Heroku](/pages/devops/heroku.html)
 
 
 

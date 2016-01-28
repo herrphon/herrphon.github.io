@@ -5,12 +5,6 @@ description: ""
 ---
 {% include JB/setup %}
 
-## Nice Articles
-
-* [server naming schemes](https://mnx.io/blog/a-proper-server-naming-scheme/)
-
-* [open source at facebook](https://code.facebook.com/posts/463284987129903/oscon-2015-how-facebook-open-sources-at-scale/)
-
 
 
 
@@ -23,9 +17,8 @@ description: ""
 * Download torrents in the cloud with [offcloud.com](https://offcloud.com/)
 
 
-## Programming Languages
 
-* [node.js](https://www.youtube.com/watch?v=czmulJ9NBP0)
+## Programming Languages
 
 * [scala](https://www.youtube.com/watch?v=DzFt0YkZo8M)
 
@@ -34,17 +27,6 @@ description: ""
 
   ``` assertThat(a, is(equalsTo(b))); ``` 
 
-
-
-#### Rails 
-
-* [codon talks](http://codon.com/talks)
-
-
-
-#### Javascript and CSS
-
-* [cdnjs](https://cdnjs.com/) - CDN links for js and css libraries 
 
 
 
@@ -56,3 +38,7 @@ description: ""
 * <https://developer.atlassian.com/blog/2015/08/optional-broken/>
 
 * <http://www.macbreaker.com/2015/01/virtualbox-yosemite-zone.html>
+
+* [open source at facebook](https://code.facebook.com/posts/463284987129903/oscon-2015-how-facebook-open-sources-at-scale/)
+
+
