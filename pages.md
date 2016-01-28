@@ -11,11 +11,11 @@ group: navigation
 * [Links](/pages/links.html)
 * [Quotes](/pages/quotes.html)
 
-* [Git](/pages/git.html)
-
 
 
 ## Programming Stuff
+
+* [Git](/pages/git.html)
 
 * [Java](/pages/java/index.html)
 
@@ -25,9 +25,8 @@ group: navigation
 * [Haskell](/pages/haskell/index.html)
 
 
-## All Pages
 
-<ul>
-{% assign pages_list = site.pages %}
-{% include JB/pages_list %}
-</ul>
+
+## Other
+
+* [Index of all Pages](/pages/index.html)
