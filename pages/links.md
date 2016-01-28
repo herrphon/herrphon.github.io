@@ -46,6 +46,29 @@ description: ""
 * [cdnjs](https://cdnjs.com/) - CDN links for js and css libraries 
 
 
+### Docker
+
+* [Heroku Blog - Docker Support](http://blog.heroku.com/archives/2015/8/18/docker_updates_local_data_stores_and_more_languages)
+
+
+* [Why Docker is Not Yet Succeeding Widely in Production](http://sirupsen.com/production-docker/)
+
+* [... 2](https://dzone.com/articles/why-docker-is-not-yet-widely-successful-in-product)
+
+
+* [docker in the real world at yelp](http://engineeringblog.yelp.com/2015/08/docker-in-the-real-world-at-yelp.html)
+
+
+
+
+CoreOS   Flannel   Overlay Network
+
+* [Flannel](https://coreos.com/blog/introducing-rudder/)
+
+* <https://www.youtube.com/embed/uC8Y_TGtwPo>
+
+
+
 
 ### Other Stuff
 

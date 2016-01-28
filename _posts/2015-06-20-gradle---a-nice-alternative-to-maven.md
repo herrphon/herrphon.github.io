@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gradle - A nice Alternative to Maven"
+title: "Gradle - A nice alternative to Maven"
 description: "Sometimes Maven is just too ..."
 category: java 
 tags: [java, gradle]
