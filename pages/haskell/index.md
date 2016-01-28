@@ -8,7 +8,6 @@ description: ""
 
 ## Overview
 
-[Haskell](https://www.haskell.org/)
 
 ![haskell]({{ site.url }}/assets/images/haskell.svg)
 <style>
@@ -17,6 +16,8 @@ img[alt="haskell"] {
   display: block;
 }
 </style>
+[Haskell](https://www.haskell.org/)
+
 
 
 * Purely Functional Programming Language
