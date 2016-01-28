@@ -10,8 +10,13 @@ description: ""
 
 [Haskell](https://www.haskell.org/)
 
-![haskell]({{ site.url }}/assets/images/haskell.svg =120x85)
-
+![haskell]({{ site.url }}/assets/images/haskell.svg)
+<style>
+img[alt="haskell"] { 
+  max-width:  120px; 
+  display: block;
+}
+</style>
 
 
 * Purely Functional Programming Language
