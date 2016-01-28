@@ -18,8 +18,8 @@ The most commonly used compiler is the [Glasgow Haskell Compiler](https://en.wik
 
 * ghc - comiler
 * ghci - interactive haskell shell
-  * :l mystuff - load mystuff.hs
-  * :r - reload
+  * ```  :l mystuff ``` - load mystuff.hs
+  * ``` :r ``` - reload
 
 ## Learn Haskell
 
