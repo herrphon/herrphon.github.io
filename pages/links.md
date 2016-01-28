@@ -5,31 +5,45 @@ description: ""
 ---
 {% include JB/setup %}
 
+## Nice Articles
 
 * [server naming schemes](https://mnx.io/blog/a-proper-server-naming-scheme/)
-
 
 * [open source at facebook](https://code.facebook.com/posts/463284987129903/oscon-2015-how-facebook-open-sources-at-scale/)
 
 
-* [offcloud.com](https://offcloud.com/)
 
 
+### Web tools:
 
-* [shout irc](http://shout-irc.com/)
+* [Loggly](http://loggly.com)
 
-* [nice matchers for unittests](https://code.google.com/p/hamcrest/)
-  
-  ``` assertThat(a, is(equalsTo(b))); ``` 
+* [shout irc](http://shout-irc.com/) - The self-hosted web IRC client
+
+* Download torrents in the cloud with [offcloud.com](https://offcloud.com/)
+
+
+## Programming Languages
 
 * [node.js](https://www.youtube.com/watch?v=czmulJ9NBP0)
 
 * [scala](https://www.youtube.com/watch?v=DzFt0YkZo8M)
 
+* [Hamcrest](https://code.google.com/p/hamcrest/) - nice matchers for unittests.
+   Hamcrest has been ported to Java, C++, Objective-C, Python, PHP and Erlang.
 
-* [SRE](http://blog.marc-seeger.de/2015/05/01/sre-interviews-in-silicon-valley/)
+  ``` assertThat(a, is(equalsTo(b))); ``` 
+
+
+
+#### Rails 
 
 * [codon talks](http://codon.com/talks)
 
 
+
+
+### Stuff
+
+* [SRE](http://blog.marc-seeger.de/2015/05/01/sre-interviews-in-silicon-valley/)
 
