@@ -7,6 +7,10 @@ description: ""
 
 
 
+![gopher]({{ site.url }}/assets/images/gopherbw.png)
+
+
+
 * Jet another REST lib - [github.com/emicklei/go-restful](https://github.com/emicklei/go-restful)
 
 * [Viper](https://github.com/spf13/viper) - Go configuration with fangs
