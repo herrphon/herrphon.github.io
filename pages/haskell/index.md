@@ -7,21 +7,29 @@ description: ""
 
 ## Overview
 
-* Purely Functional
+* Purely Functional Programming Language
 * Lazy Evaluation
 * Statically Typed
-  * Type system has type inference
+
+Other cool features:
+
+* Type system with super mighty type inference
+* Currying
+
 
 ## Installation
 
 The most commonly used compiler is the [Glasgow Haskell Compiler](https://en.wikipedia.org/wiki/Glasgow_Haskell_Compiler) aka GHC. It can be downloaded [here](https://www.haskell.org/ghc/).
 
-* ghc - comiler
-* ghci - interactive haskell shell
+* ``` ghc ``` - comiler
+* ``` ghci ``` - interactive haskell shell
   * ```  :l mystuff ``` - load mystuff.hs
   * ``` :r ``` - reload
 
+
 ## Learn Haskell
+
+You can first go to <http://tryhaskell.org/> and play through the online thingy.
 
 The book for learning haskell - really, you will only want this one - is "Learn You a Haskell for Great Good!" which is available [online](http://learnyouahaskell.com/chapters) for free.
 
@@ -34,12 +42,5 @@ The book for learning haskell - really, you will only want this one - is "Learn 
 
 #### Functions
 
-
-Cool stuff:
-
-* Currying
-
-
-<http://tryhaskell.org/>
 
 
