@@ -19,11 +19,21 @@ group: navigation
 
 * [Java](/pages/java/index.html)
 
+* [Ruby](/pages/ruby/index.html)
+
+* [Javascript](/pages/javascript/index.html)
+
+
 * Golang
   * [Golang - Links](/pages/golang/links.html)
 
+
 * [Haskell](/pages/haskell/index.html)
 
+
+## DevOps
+
+* [Docker](/pages/docker/index.html)
 
 
 

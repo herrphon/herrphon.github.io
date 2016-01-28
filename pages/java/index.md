@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Index"
+title: "Java"
 description: ""
 ---
 {% include JB/setup %}
