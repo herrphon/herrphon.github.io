@@ -10,7 +10,7 @@ description: ""
 
 [Haskell](https://www.haskell.org/)
 
-![haskell]({{ site.url }}/assets/images/haskell.svg)
+![haskell]({{ site.url }}/assets/images/haskell.svg =120x85)
 
 
 
