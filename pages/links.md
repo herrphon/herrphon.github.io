@@ -14,7 +14,7 @@ description: ""
 
 * [Shout IRC](http://shout-irc.com/) - The self-hosted web IRC client
 
-* [offcloud.com](https://offcloud.com/) - Download torrents in the cloud
+* [Offcloud](https://offcloud.com/) - Download torrents in the cloud
 
 
 
