@@ -13,10 +13,17 @@ group: navigation
 
 * [Git](/pages/git.html)
 
-## Golang
 
-* [Golang Links](/pages/golang/links.html)
+
+## Programming Stuff
+
+* [Java](/pages/java/index.html)
+
+* Golang
+  * [Golang - Links](/pages/golang/links.html)
+
 * [Haskell](/pages/haskell/index.html)
+
 
 ## All Pages
 
