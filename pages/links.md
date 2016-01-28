@@ -43,7 +43,7 @@ description: ""
 
 
 
-### Stuff
+### Other Stuff
 
 * [SRE](http://blog.marc-seeger.de/2015/05/01/sre-interviews-in-silicon-valley/)
 
