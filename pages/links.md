@@ -8,7 +8,7 @@ description: ""
 
 
 
-## Web Applications / Web Tools
+## Web Apps &amp; Tools
 
 * [Loggly](http://loggly.com)
 
