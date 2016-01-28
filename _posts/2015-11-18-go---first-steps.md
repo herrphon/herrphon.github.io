@@ -32,7 +32,7 @@ tags: [golang]
 * [Keyboard shortcut to comment lines](http://stackoverflow.com/questions/17742781/keyboard-shortcut-to-comment-lines-in-sublime-text-3)
 
 
-Sublime Plugins:
+Plugins for Sublime:
 
 * [git](https://packagecontrol.io/packages/Git)
 * [gitgutter](https://github.com/jisaacks/GitGutter)
@@ -57,12 +57,14 @@ Sublime Plugins:
 
 
 ## setup ide
-<https://golang.org/doc/code.html>
-<http://dave.cheney.net/2014/12/01/five-suggestions-for-setting-up-a-go-project>
+
+* <https://golang.org/doc/code.html>
+* <http://dave.cheney.net/2014/12/01/five-suggestions-for-setting-up-a-go-project>
 
 
 ## testing and tdd
-<https://golang.org/pkg/testing/>
+
+* <https://golang.org/pkg/testing/>
 
 e.g. fib performance tests: 
 <http://dave.cheney.net/2013/06/09/writing-table-driven-tests-in-go>
