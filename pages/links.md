@@ -20,7 +20,7 @@ description: ""
 
 ## Programming
 
-* [Scala](https://www.youtube.com/watch?v=DzFt0YkZo8M)
+* [Youtube - Scala](https://www.youtube.com/watch?v=DzFt0YkZo8M)
 
 * [Hamcrest](https://code.google.com/p/hamcrest/) - nice matchers for unittests.
    Hamcrest has been ported to Java, C++, Objective-C, Python, PHP and Erlang.
