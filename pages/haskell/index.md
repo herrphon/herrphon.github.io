@@ -5,7 +5,14 @@ description: ""
 ---
 {% include JB/setup %}
 
+
 ## Overview
+
+[Haskell](https://www.haskell.org/)
+
+![haskell]({{ site.url }}/assets/haskell.svg)
+
+
 
 * Purely Functional Programming Language
 * Lazy Evaluation
@@ -15,6 +22,7 @@ Other cool features:
 
 * Type system with super mighty type inference
 * Currying
+* Concurrent
 
 
 ## Installation
