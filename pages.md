@@ -11,6 +11,7 @@ group: navigation
 * [Links](/pages/links.html)
 * [Quotes](/pages/quotes.html)
 
+* [Git](/pages/git.html)
 
 ## Golang
 
