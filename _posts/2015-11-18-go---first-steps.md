@@ -27,20 +27,26 @@ tags: [golang]
 
 ### Sublime
 
-* <https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts>
-* <https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings>
-* <http://stackoverflow.com/questions/17742781/keyboard-shortcut-to-comment-lines-in-sublime-text-3>
+* [Getting started and keyboard shortcuts](https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts)
+* [Best of: Features, Plugins and Settings](https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
+* [Keyboard shortcut to comment lines](http://stackoverflow.com/questions/17742781/keyboard-shortcut-to-comment-lines-in-sublime-text-3)
 
 
-* [git]()
-* [gitgutter]()
+Sublime Plugins:
 
-* <https://packagecontrol.io/packages/GoSublime>
-* <https://packagecontrol.io/packages/GoTools>
+* [git](https://packagecontrol.io/packages/Git)
+* [gitgutter](https://github.com/jisaacks/GitGutter)
+
+* [GoSublime](https://packagecontrol.io/packages/GoSublime) on [github](https://github.com/DisposaBoy/GoSublime)
 
 
-relatively new - but the official plugin:
-* <https://packagecontrol.io/packages/Golang%20Build>
+* relatively new - but the official plugin:
+  * <https://github.com/golang/sublime-build>
+  * <https://packagecontrol.io/packages/Golang%20Build>
+
+* maybe totally unnecessary: <https://packagecontrol.io/packages/GoTools>
+
+
 
 
 ## intro

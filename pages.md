@@ -16,7 +16,7 @@ group: navigation
 ## Golang
 
 * [Golang Links](/pages/golang/links.html)
-
+* [Haskell](/pages/haskell/index.html)
 
 ## All Pages
 
