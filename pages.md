@@ -12,6 +12,10 @@ group: navigation
 * [Quotes](/pages/quotes.html)
 
 
+## Golang
+
+* [Golang Links](/pages/golang/links.html)
+
 
 ## All Pages
 
