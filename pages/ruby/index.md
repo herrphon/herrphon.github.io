@@ -8,6 +8,7 @@ description: ""
 
 
 
+![ruby]({{ site.url }}/assets/images/ruby.png)
 
 
 #### Rails 
