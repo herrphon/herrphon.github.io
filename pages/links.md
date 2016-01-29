@@ -54,3 +54,4 @@ description: ""
 
 * [Static Website Generators - Review of Jekyll, Middleman, Roots and Hugo](https://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review/)
 
+* [Move from Jekyll to Hugo](https://gohugo.io/tutorials/migrate-from-jekyll/)
