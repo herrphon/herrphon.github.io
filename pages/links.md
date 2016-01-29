@@ -28,6 +28,7 @@ description: ""
   ``` assertThat(a, is(equalsTo(b))); ``` 
 
 
+* [airpair.com](https://www.airpair.com/software-experts) - Learn from top software experts
 
 
 ## Tor - The Onion Routing
