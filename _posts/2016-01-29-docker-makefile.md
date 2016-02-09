@@ -13,7 +13,8 @@ TODO: Description goes here...
 
 
 Makefile
-<pre><code>
+
+{% highlight linenos %}
 IMAGE_NAME=blubb/container-name
 VERSION=$(shell date +"%Y%m%d.%H%M")
 GIT_HASH=$(shell git describe --dirty --always --match do-not-match)
@@ -36,5 +37,4 @@ release: build
         docker tag -f ${IMAGE_NAME} ${IMAGE_NAME}:${VERSION}.${GIT_HASH}
         docker tag -f ${IMAGE_NAME} registry.tld:5000/${IMAGE_NAME}:${VERSION}.${GIT_HASH}
         docker push registry.tld:5000/${IMAGE_NAME}:${VERSION}.${GIT_HASH}
-</code></pre>
-
+{% endhighlight %}
