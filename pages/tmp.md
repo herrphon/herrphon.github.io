@@ -1,4 +1,3 @@
-tmp.md
 ---
 layout: page
 title: "tmp page"
