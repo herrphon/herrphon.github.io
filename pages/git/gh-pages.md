@@ -3,7 +3,7 @@ layout: page
 title: "Github Pages"
 description: ""
 ---
-{% include JB/setup %}
+
 
 
 

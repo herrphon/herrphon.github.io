@@ -5,7 +5,7 @@ description: ""
 category: haskell
 tags: [monad, haskell, ruby]
 ---
-{% include JB/setup %}
+
 
 
 

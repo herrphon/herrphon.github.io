@@ -5,7 +5,7 @@ description: ""
 category: interview
 tags: [interview]
 ---
-{% include JB/setup %}
+
 
 
 * [How to ace an algorithm interview](http://www.palantir.com/2011/09/how-to-ace-an-algorithms-interview/)

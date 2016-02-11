@@ -5,7 +5,7 @@ description: ""
 category: ide
 tags: [sublime, ide, editor]
 ---
-{% include JB/setup %}
+
 
 
 

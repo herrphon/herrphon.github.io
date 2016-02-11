@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 
 * <http://yeoman.io/codelab/write-app.html>

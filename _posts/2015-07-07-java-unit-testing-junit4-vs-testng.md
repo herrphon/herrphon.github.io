@@ -5,7 +5,7 @@ description: ""
 category: java
 tags: [java, test]
 ---
-{% include JB/setup %}
+
 
 
 <http://www.mkyong.com/unittest/junit-4-vs-testng-comparison/>

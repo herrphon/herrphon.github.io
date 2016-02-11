@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [docker, systemd, jenkins]
 ---
-{% include JB/setup %}
+
 
 # Build a Simple Image and Push it to the Registry:
 

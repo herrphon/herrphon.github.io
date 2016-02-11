@@ -5,7 +5,7 @@ description: ""
 category: go
 tags: [golang]
 ---
-{% include JB/setup %}
+
 
 
 

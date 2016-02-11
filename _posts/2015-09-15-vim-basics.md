@@ -5,7 +5,7 @@ description: ""
 category: vim
 tags: [vim]
 ---
-{% include JB/setup %}
+
 
 
 This post will probably be edited from time to time. It shall contain some basic commands in vim. Here we go:

@@ -3,7 +3,7 @@ layout: page
 title: "Javascript"
 description: ""
 ---
-{% include JB/setup %}
+
 
 
 * [cdnjs](https://cdnjs.com/) - CDN links for js and css libraries 

@@ -3,7 +3,7 @@ layout: page
 title: "Jekyll"
 description: ""
 ---
-{% include JB/setup %}
+
 
 
 

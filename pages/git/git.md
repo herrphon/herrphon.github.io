@@ -3,7 +3,7 @@ layout: page
 title: "Git"
 description: ""
 ---
-{% include JB/setup %}
+
 
 
 

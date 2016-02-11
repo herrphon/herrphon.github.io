@@ -3,7 +3,7 @@ layout: page
 title: "Golang Links"
 description: ""
 ---
-{% include JB/setup %}
+
 
 
 

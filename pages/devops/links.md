@@ -3,7 +3,7 @@ layout: page
 title: "DevOps Links"
 description: ""
 ---
-{% include JB/setup %}
+
 
 
 

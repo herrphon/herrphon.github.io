@@ -3,7 +3,7 @@ layout: page
 title: "Bash Stuff"
 description: ""
 ---
-{% include JB/setup %}
+
 
 
 

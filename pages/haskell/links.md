@@ -3,7 +3,7 @@ layout: page
 title: "Haskell - Links"
 description: ""
 ---
-{% include JB/setup %}
+
 
 
 

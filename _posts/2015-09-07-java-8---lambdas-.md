@@ -5,7 +5,7 @@ description: ""
 category: java
 tags: [java]
 ---
-{% include JB/setup %}
+
 
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/androidstudio.min.css">

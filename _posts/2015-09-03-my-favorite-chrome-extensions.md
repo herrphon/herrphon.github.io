@@ -5,7 +5,7 @@ description: ""
 category: chrome
 tags: [chrome]
 ---
-{% include JB/setup %}
+
 
 
 Appart from the standard extensions like adblock the following things are quite nice to have:

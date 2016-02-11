@@ -5,7 +5,7 @@ description: "Sometimes Maven is just too ..."
 category: java 
 tags: [java, gradle]
 ---
-{% include JB/setup %}
+
 
 
 

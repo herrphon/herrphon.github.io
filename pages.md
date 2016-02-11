@@ -4,7 +4,7 @@ title: Pages
 header: Pages
 group: navigation
 ---
-{% include JB/setup %}
+
 
 
 

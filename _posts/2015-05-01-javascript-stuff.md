@@ -5,7 +5,7 @@ description: ""
 category: javascript 
 tags: [javascript]
 ---
-{% include JB/setup %}
+
 
 
 * [JSLint](http://www.jslint.com/)
@@ -53,17 +53,21 @@ Other links:
 
 ## Counter:
 
-<pre><code>function getCounter() {
+{% highlight javascript linenos %}
+function getCounter() {
     var count = 0;
     return {
         incr: function () { return ++count; },
         decr: function () { return --count; }
     };
 }
-</code></pre>
+{% endhighlight %}
 
 
-<pre><code>--------------------------------
+
+
+{% highlight bash %}
+--------------------------------
 | getCounter                   |
 | _______________________      |
 | |                     |-     |
@@ -81,7 +85,7 @@ Other links:
 |   |---------------------|    |
 |                              |
 --------------------------------
-</code></pre>
+{% endhighlight %}
 
 
 

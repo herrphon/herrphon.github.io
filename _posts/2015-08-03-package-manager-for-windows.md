@@ -5,7 +5,7 @@ description: ""
 category: windows
 tags: [windows]
 ---
-{% include JB/setup %}
+
 
 
 

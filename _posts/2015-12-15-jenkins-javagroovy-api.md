@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [jenkins, groovy, java]
 ---
-{% include JB/setup %}
+
 
 
 A good starting point for Jenkins Java Api is the 
