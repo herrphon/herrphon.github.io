@@ -38,3 +38,48 @@ Further reading:
 
 * [golang blubb](http://blog.denevell.org/category_golang.html)
 
+
+
+
+## More Links
+
+
+Boston Golang - Testing - https://www.youtube.com/watch?v=v_wz6E3uFRg
+
+
+GopherCon 2015 - Rebuilding Parse.com in Go https://www.youtube.com/watch?v=_f9LS-OWfeA 
+
+
+
+
+
+Talks from Francesc Campoy:
+
+Twelve Go Best Practices - August 2014 - https://www.youtube.com/watch?v=8D3Vmm1BGoY
+
+http://talks.golang.org/2013/bestpractices.slide#2
+
+
+
+Golang UK Conference 2015 - Program Analysis https://www.youtube.com/watch?v=oorX84tBMqo
+
+
+
+
+
+http://thenewstack.io/make-a-restful-json-api-go/
+
+http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/
+
+https://medium.com/@matryer/5-simple-tips-and-tricks-for-writing-unit-tests-in-golang-619653f90742#.31601hds1
+
+
+Writing JSON REST APIs in Go https://www.youtube.com/watch?v=2rHgpx2gClk
+
+
+
+JSON and Go https://blog.golang.org/json-and-go
+
+
+
+

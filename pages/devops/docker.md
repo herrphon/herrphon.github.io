@@ -35,3 +35,18 @@ Project Atomic - RHEL Atomic Host:
 
 * [RHEL Atomic Host](https://access.redhat.com/articles/rhel-atomic-getting-started)
 
+
+
+
+
+docker
+ 
+https://github.com/docker/docker/issues/19616
+
+http://stackoverflow.com/questions/34950465/logging-from-multiprocess-docker-containers
+
+--> ? https://hub.docker.com/r/pataquets/ubuntu/~/dockerfile/
+
+
+
+

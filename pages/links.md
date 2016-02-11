@@ -45,6 +45,16 @@ description: ""
 
 ## Other Stuff
 
+ 
+* [Cloudflare](https://www.cloudflare.com)
+* [Digital Ocean](https://www.digitalocean.com)
+ 
+ 
+ 
+
+
+
+
 * [SRE interviews in Silicon Valley](http://blog.marc-seeger.de/2015/05/01/sre-interviews-in-silicon-valley/)
 
 * [Java 8 Optionals are broken](https://developer.atlassian.com/blog/2015/08/optional-broken/)

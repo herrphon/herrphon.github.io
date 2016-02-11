@@ -29,6 +29,7 @@ Other cool features:
 * Type system with super mighty type inference
 * Currying
 * Concurrent
+* Pattern Matching
 
 
 ## Installation
