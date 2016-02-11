@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "tmp page"
+title: "tmp"
 description: ""
 ---
 {% include JB/setup %}
@@ -135,6 +135,10 @@ git config --global push.default simple
 git clone https://github.com/scortum/mail.git && cd ~/mail && ./build.sh
 git clone https://github.com/scortum/sshd.git && cd ~/sshd && ./build.sh
 </code></pre>
+
+
+https://www.digitalocean.com/community/tutorials/how-to-enable-user-and-group-quotas
+https://wiki.ubuntuusers.de/Quota/
 
 
 
