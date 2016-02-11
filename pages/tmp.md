@@ -157,6 +157,6 @@ https://ptmccarthy.github.io/2014/07/24/remote-jmx-with-docker/
 
 
 
-grep -rl "{% include JB/setup %}" pages | xargs sed -i '' 's/{% include JB\/setup %}//g'
+grep -rl "foo" pages | xargs sed -i '' 's/foo/bar/g'
 
 
