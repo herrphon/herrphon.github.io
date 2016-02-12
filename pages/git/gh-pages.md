@@ -9,6 +9,11 @@ description: ""
 
 
 
-github pages hugo automatic deployment with wercker: https://gohugo.io/tutorials/automated-deployments/
+
+## Hugo
+
+* [github pages hugo automatic deployment with wercker](https://gohugo.io/tutorials/automated-deployments/)
+
+
  
  
