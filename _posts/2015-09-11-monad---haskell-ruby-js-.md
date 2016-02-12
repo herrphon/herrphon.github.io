@@ -99,6 +99,12 @@ A monad, for our purposes, is made up of three things:
 <https://github.com/tomstuart/monads>
 
 
+
+* [Possibly - Maybe monad for Ruby](https://github.com/rap1ds/ruby-possibly)
+
+
+
+
 ## Javascript
 
 <http://igstan.ro/posts/2011-05-02-understanding-monads-with-javascript.html>
@@ -150,6 +156,13 @@ getStudent(name)
 
 
 <https://speakerdeck.com/kerrick/javascript-promises-thinking-sync-in-an-async-world>
+
+
+
+<https://importantshock.wordpress.com/2009/01/18/jquery-is-a-monad/>
+
+<http://morenews.blogspot.com.au/2015/02/jquery-still-not-monad.html>
+
 
 
 ## Haskell
@@ -258,3 +271,12 @@ var my_vow = VOW.make();
 * <https://www.youtube.com/watch?v=w9hHHvhZ_HY>
 
 * <https://www.youtube.com/watch?v=oBqeDYETXME>
+
+
+<https://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/>
+
+
+
+
+
+

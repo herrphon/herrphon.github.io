@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Github Pages"
-description: ""
+title: "Hugo"
+description: "another (fast) static site generater"
 ---
 
 
