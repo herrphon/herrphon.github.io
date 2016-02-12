@@ -37,6 +37,8 @@ group: navigation
 
 * [Heroku](/pages/devops/heroku.html)
 
+* [Command-line Stuff](/pages/devops/commandline.html)
+
 
 
 #### Other
