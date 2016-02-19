@@ -11,9 +11,10 @@ gulp.task('jekyll-build', function (done) {
     var messages = {
         jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
     };
+    var jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
 
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+    return cp.spawn(jekyll, ['build'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -55,7 +56,7 @@ gulp.task('sass', function () {
 gulp.task('watch', function () {
     gulp.watch('assets/css/**', ['sass']);
     gulp.watch('assets/js/**', ['jekyll-rebuild']);
-    gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*', '_pages/**'], ['jekyll-rebuild']);
     gulp.watch(['assets/js/**'], ['jekyll-rebuild']);
     // added to watch jade files
     gulp.watch('_jadefiles/*.jade', ['jade']);
