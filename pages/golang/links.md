@@ -83,3 +83,8 @@ JSON and Go https://blog.golang.org/json-and-go
 
 
 
+## Library
+
+* <https://github.com/cortesi/devd>
+
+* <https://github.com/cortesi/modd>

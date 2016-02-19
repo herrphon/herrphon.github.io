@@ -99,3 +99,6 @@ $ xxd HelloWorld.class
 000001a0: 0001 000d 0000 0002 000e                 ..........
 {% endhighlight %}
 
+* [wiki - java class file](https://en.wikipedia.org/wiki/Java_class_file)
+* [wiki - java byte code](https://en.wikipedia.org/wiki/Java_bytecode)
+

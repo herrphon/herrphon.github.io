@@ -25,3 +25,35 @@ JMX
 
 
 
+
+
+
+## Maven
+
+* [Release Plugin](https://maven.apache.org/maven-release/maven-release-plugin/)
+
+{% highlight shell %}
+$ mvn release:prepare
+{% endhighlight %}
+
+{% highlight shell %}
+$ mvn release:perform
+{% endhighlight %}
+
+
+
+## JAVA SSL Problems with Wildcard Certificate
+
+https://stackoverflow.com/questions/7615645/ssl-handshake-alert-unrecognized-name-error-since-upgrade-to-java-1-7-0
+
+
+{% highlight shell %}
+java -Djsse.enableSNIExtension=false yourClass
+{% endhighlight %}
+
+
+Windows Environment Variable:
+{% highlight shell %}
+JAVA_TOOL_OPTIONS = -Djsse.enableSNIExtension=false
+{% endhighlight %}
+
