@@ -17,7 +17,7 @@ description: ""
 * [Offcloud](https://offcloud.com/) - Download torrents in the cloud
 
 
-#### Server Monitoring 
+#### Server Monitoring
 
 * [SeaLion](https://sealion.com/)
 
@@ -30,7 +30,7 @@ description: ""
 * [Hamcrest](https://code.google.com/p/hamcrest/) - nice matchers for unittests.
    Hamcrest has been ported to Java, C++, Objective-C, Python, PHP and Erlang.
 
-  ``` assertThat(a, is(equalsTo(b))); ``` 
+  ``` assertThat(a, is(equalsTo(b))); ```
 
 
 * [airpair.com](https://www.airpair.com/software-experts) - Learn from top software experts
@@ -50,12 +50,14 @@ description: ""
 
 ## Other Stuff
 
- 
+* [Hydra](http://sectools.org/tool/hydra/)
+
+
 * [Cloudflare](https://www.cloudflare.com)
 * [Digital Ocean](https://www.digitalocean.com)
- 
- 
-* [CSS tricks.com - How to setup gulp.](https://css-tricks.com/gulp-for-beginners/) 
+
+
+* [CSS tricks.com - How to setup gulp.](https://css-tricks.com/gulp-for-beginners/)
 
 * [Java Spring](http://www.tutorialspoint.com/spring/index.htm)
 
