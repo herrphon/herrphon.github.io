@@ -108,7 +108,9 @@ $ xxd HelloWorld.class
 
 {% highlight shell %}
 $ export SERVER=gnupg.org
-$ echo | openssl s_client -showcerts -servername ${SERVER} -connect ${SERVER}:443 2>/dev/null | openssl x509 -inform pem -noout -text
+$ echo | openssl s_client -showcerts -servername ${SERVER}  \
+                      -connect ${SERVER}:443 2>/dev/null  \
+                      | openssl x509 -inform pem -noout -text
 
 
 Certificate:
