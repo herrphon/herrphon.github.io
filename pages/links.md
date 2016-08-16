@@ -16,6 +16,7 @@ description: ""
 
 * [Offcloud](https://offcloud.com/) - Download torrents in the cloud
 
+* [nsupdate.info](nsupdate.info.) - Dyndns service
 
 #### Server Monitoring
 

@@ -193,3 +193,15 @@ Certificate:
          28:9d:bf:a5
 {% endhighlight %}
 
+
+
+## Analyze traffic remotely with wireshark and tcpdump over ssh
+
+```
+   ssh root@${HOSTNAME} tcpdump -U -s0 -w 'not port 22' | wireshark -k -i -
+```
+
+
+[other options](https://www.commandlinefu.com/commands/view/4373/analyze-traffic-remotely-over-ssh-w-wireshark)
+
+

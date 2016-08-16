@@ -50,3 +50,8 @@ http://stackoverflow.com/questions/34950465/logging-from-multiprocess-docker-con
 
 
 
+
+Running multiple processes in one container:
+
+* [forego](https://github.com/ddollar/forego) - foreman written in go
+

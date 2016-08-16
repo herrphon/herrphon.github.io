@@ -27,3 +27,8 @@ https://answers.atlassian.com/questions/69644/basic-text-searcher-not-showing-up
 
 http://www.j-tricks.com/tutorials/custom-field-searchers
 
+
+## Source Code
+
+* [Stash Pull-Request Notifier](https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket)
+
