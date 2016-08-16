@@ -49,6 +49,27 @@ Config file: 'app/Http/routes.php'
         */
         return view("pages.about");
     });
+
+    Route::get('/data', function () {
+
+        $people = ['Taylor', 'Matt', 'Jeffrey'];
+
+        //return View::make();
+
+
+        //// type 1:
+        // return view('welcome', ['people' => $people ]);
+
+        //// or with compact which does the same:
+        return view('welcome', compact('people'));
+
+
+        //// type 2:
+        // return view('welcome')->with('people', $people);
+
+        //// dynamic methods:
+        //return view('welcome')->withPeople($people);
+    });
 ```
 
 
@@ -59,6 +80,8 @@ Path: 'resources/views'
 
 
 ## Blade - The templating engine
+
+* [blade doc](https://laravel.com/docs/5.2/blade)
 
 
 ```
