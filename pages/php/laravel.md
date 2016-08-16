@@ -8,8 +8,10 @@ description: "PHP Web-Framework"
 ## Links
 
 * [Nice video tutorial](https://laracasts.com/series/laravel-5-from-scratch)
+
 * [What's new in laravel 5.3](https://laracasts.com/series/whats-new-in-laravel-5-3)
 
+* [Laravel Documentation](https://laravel.com/docs/5.2/)
 
 
 
@@ -57,18 +59,18 @@ Config file: 'app/Http/routes.php'
         //return View::make();
 
 
-        //// type 1:
+        /* type 1: */
         // return view('welcome', ['people' => $people ]);
 
-        //// or with compact which does the same:
+        /* or with compact which does the same: */
         return view('welcome', compact('people'));
 
 
-        //// type 2:
+        /* type 2:  */
         // return view('welcome')->with('people', $people);
 
-        //// dynamic methods:
-        //return view('welcome')->withPeople($people);
+        /* dynamic methods:  */
+        // return view('welcome')->withPeople($people);
     });
 ```
 
