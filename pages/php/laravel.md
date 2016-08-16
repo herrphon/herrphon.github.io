@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Laravel"
+description: "PHP Web-Framework"
+---
 
 # Laravel
 
