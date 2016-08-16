@@ -4,7 +4,6 @@ title: "Laravel"
 description: "PHP Web-Framework"
 ---
 
-# Laravel
 
 ## Links
 
@@ -57,4 +56,35 @@ Config file: 'app/Http/routes.php'
 ## Views
 
 Path: 'resources/views'
+
+
+## Blade - The templating engine
+
+
+```
+    <!-- the old way:
+        <?php foreach ($people as $person) : ?>
+            <li><?= $person; ?></li>
+        <?php endforeach; ?>
+    -->
+
+    @if (empty($people))
+        There are no people.
+    @else
+        There are some people.
+    @endif
+
+    @unless (true == true)
+        unless works also
+    @endunless
+
+    @foreach ($people as $person)
+        <li>{{ $person }}</li>
+    @endforeach
+```
+
+
+
+
+
 
