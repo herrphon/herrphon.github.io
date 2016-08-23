@@ -33,6 +33,8 @@ Start webserver:
 
 Config file: 'app/Http/routes.php'
 
+Small things can be put directly into the routes file:
+
 ```
     Route::get('/', function () {
         /*
@@ -75,6 +77,35 @@ Config file: 'app/Http/routes.php'
 ```
 
 
+But a better way is it to put it into a controller:
+
+```
+    // Call controller functions using the format: ControllerName @ Method
+    Route::get('about', 'PagesController@about');
+```
+
+
+
+
+
+## Controllers
+
+
+Path: 'App/Http/Controllers'
+
+
+Create with:
+
+```
+    $ php artisan help make:controller
+
+    $ php artisan make:controller PagesController
+
+```
+
+
+
+
 
 ## Views
 
@@ -107,6 +138,70 @@ Path: 'resources/views'
         <li>{{ $person }}</li>
     @endforeach
 ```
+
+
+
+
+## Blade - Layout Files
+
+Inside the layout file:
+
+```
+    // to yield a section of the template file
+    @yield('content')
+```
+
+
+Inside the template file:
+
+```
+    @extends('layout')  // reference to layout.blade.php
+
+    @section('content')  // define the start of the section 'content'
+
+    [...]
+
+    @stop
+
+```
+
+
+
+## Build Process - CSS, SCSS, JS, ...
+
+
+Laravel uses 'elixir' - references can be found in the '/gulpfile.js'. To install all needed packages do a 'npm install' (which installs all packages referenced in the 'package.json' file).
+
+
+To run the build process:
+
+```
+    $ gulp
+    or
+    $ gulp --production
+    or
+    $ gulp watch
+```
+
+Further elixir tutorial at laracasts video...
+
+
+
+### SCSS
+
+Path: 'resources/assets/sass/app.scss'
+
+
+
+
+## Database
+
+Configuration path: 'config/database.php'
+
+
+
+ORM: 'eloquent'
+
 
 
 
