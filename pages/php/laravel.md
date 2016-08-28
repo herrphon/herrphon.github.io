@@ -18,71 +18,45 @@ description: "PHP Web-Framework"
 ## Commandline Basics
 
 
-Create a new laravel project with:
-
-``` $ laravel new project ```
-
-Start webserver:
-
-``` $ php artisan serve ```
+* Create a new laravel project  -  ``` $ laravel new project ```
+* Start webserver  -  ``` $ php artisan serve ```
 
 
 
 
 ## Routes
 
-Config file: 'app/Http/routes.php'
+'*app/Http/routes.php*'
 
 Small things can be put directly into the routes file:
 
-```
+{% highlight php %}
+<?php
     Route::get('/', function () {
-        /*
-        /   - view code can be found here:
-        /     'resources/views/welcome.blade.php'
-        /   - path prefix 'resources/views/' has to be ommited
-        /   - postfix .blade.php can be ommited
-        */
-        return view('welcome');
+        return view('welcome');       // 'resources/views/welcome.blade.php'
     });
 
     Route::get('about', function () {
-        /*
-        / view code can be found here:
-        / 'resources/views/pages/about.blade.php'
-        */
-        return view("pages.about");
+        return view("pages.about");   // 'resources/views/pages/about.blade.php'
     });
 
     Route::get('/data', function () {
-
         $people = ['Taylor', 'Matt', 'Jeffrey'];
-
-        //return View::make();
-
-
-        /* type 1: */
+        // return View::make();
         // return view('welcome', ['people' => $people ]);
-
-        /* or with compact which does the same: */
-        return view('welcome', compact('people'));
-
-
-        /* type 2:  */
         // return view('welcome')->with('people', $people);
-
-        /* dynamic methods:  */
         // return view('welcome')->withPeople($people);
+        return view('welcome', compact('people'));
     });
-```
+{% endhighlight %}
 
 
 But a better way is it to put it into a controller:
 
-```
-    // Call controller functions using the format: ControllerName @ Method
+{% highlight php %}
+<?php   // Calling Controller Format: ControllerName @ Method
     Route::get('about', 'PagesController@about');
-```
+{% endhighlight %}
 
 
 
@@ -90,40 +64,31 @@ But a better way is it to put it into a controller:
 
 ## Controllers
 
+'*App/Http/Controllers*'
 
-Path: 'App/Http/Controllers'
-
-
-Create with:
-
-```
-    $ php artisan help make:controller
-
-    $ php artisan make:controller PagesController
-
+``` bash
+$ php artisan help make:controller
+$ php artisan make:controller PagesController
 ```
 
 
 
 
+## Views with Blade - Templating Engine
 
-## Views
+'*resources/views*'
 
-Path: 'resources/views'
-
-
-## Blade - The templating engine
 
 * [blade doc](https://laravel.com/docs/5.2/blade)
 
 
-```
-    <!-- the old way:
-        <?php foreach ($people as $person) : ?>
-            <li><?= $person; ?></li>
-        <?php endforeach; ?>
-    -->
+``` php
+<!-- the old way:    -->
+    <?php foreach ($people as $person) : ?>
+        <li><?= $person; ?></li>
+    <?php endforeach; ?>
 
+<!-- the blade way: -->
     @if (empty($people))
         There are no people.
     @else
@@ -142,27 +107,23 @@ Path: 'resources/views'
 
 
 
-## Blade - Layout Files
+## Blade-Layout Files
 
-Inside the layout file:
+Inside the layout file (*layout.blade.php*):
 
-```
-    // to yield a section of the template file
-    @yield('content')
+``` php
+@yield('content')  // yield a section of the template file
 ```
 
 
 Inside the template file:
 
-```
-    @extends('layout')  // reference to layout.blade.php
+``` php
+@extends('layout')  // reference to layout.blade.php
 
-    @section('content')  // define the start of the section 'content'
-
-    [...]
-
-    @stop
-
+@section('content')  // define the start of the section 'content'
+[...]
+@stop
 ```
 
 
@@ -170,18 +131,13 @@ Inside the template file:
 ## Build Process - CSS, SCSS, JS, ...
 
 
-Laravel uses 'elixir' - references can be found in the '/gulpfile.js'. To install all needed packages do a 'npm install' (which installs all packages referenced in the 'package.json' file).
+Laravel uses [elixir](https://www.laravel.com/docs/5.3/elixir) - references can be found in the '/gulpfile.js'. To install all needed packages do a 'npm install' (which installs all packages referenced in the 'package.json' file).
 
 
 To run the build process:
 
-```
-    $ gulp
-    or
-    $ gulp --production
-    or
-    $ gulp watch
-```
+``` $ gulp ```  or  ``` $ gulp --production ```  or  ``` $ gulp watch ```
+
 
 Further elixir tutorial at laracasts video...
 
@@ -189,18 +145,19 @@ Further elixir tutorial at laracasts video...
 
 ### SCSS
 
-Path: 'resources/assets/sass/app.scss'
+'*resources/assets/sass/app.scss*'
 
 
 
 
 ## Database
 
-Configuration path: 'config/database.php'
+'*config/database.php*'
 
 
+Laravel uses an [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) called [eloquent](https://laravel.com/docs/5.3/eloquent)
 
-ORM: 'eloquent'
+
 
 
 
