@@ -18,6 +18,14 @@ description: ""
 * [Atlassians Advanced Git Stuff](https://www.atlassian.com/git/tutorials/advanced-overview)
 
 
+## Aliases
+
+```
+alias.root=rev-parse --show-toplevel
+# or:
+alias.root=!pwd
+``` 
+
 
 ## Commands
 
@@ -63,6 +71,11 @@ $ git merge-base --is-ancestor cafebabe master && echo "cafebabe is on master" |
 cafebabe is on master
 {% endhighlight %}
 
+
+
+```bash
+ $ git check-ignore build -q || echo build >> .gitignore
+```
 
 
 
