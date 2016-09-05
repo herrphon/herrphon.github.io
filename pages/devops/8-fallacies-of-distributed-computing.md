@@ -5,6 +5,17 @@ description: "..."
 ---
 
 
+## Big Trouble & Painful Learning
+
+Essentially everone, when they first build a distributed application, makes the following eight assumptions. All proven to be false in the long run and all causing big trouble and painful learning experiences.
+
+Peter Deutsch
+
+[original article (link is dead)](https://blogs.oracle.com/jag/resource/Fallacies.html)
+[wiki article](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+
+
+
 
 # The Eight Fallacies of Distributed Computing
 
@@ -17,15 +28,6 @@ description: "..."
 7.   Transport cost is zero
 8.   The network is homogeneous
 
-
-## Big Trouble & Painful Learning
-
-Essentially everone, when they first build a distributed application, makes the following eight assumptions. All proven to be false in the long run and all causing big trouble and painful learning experiences.
-
-Peter Deutsch
-
-[original article (link is dead)](https://blogs.oracle.com/jag/resource/Fallacies.html)
-[wiki article](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 
 
 

@@ -47,6 +47,13 @@ $ yum version packageName
 * [some blog article](https://www.outsideopen.com/csshx/)
 
 
+## Rsync with different Port
+
+```bash
+rsync -avz -e "ssh -p $portNumber" user@remoteip:/path/to/files/ /local/path/
+```
+
+
 
 
 ## Very nice alternative to screen
