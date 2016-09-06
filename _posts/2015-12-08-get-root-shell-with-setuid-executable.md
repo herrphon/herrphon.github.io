@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "get root shell with setuid executable"
+title: "Get root shell with setuid executable"
 description: ""
 category: 
 tags: []
