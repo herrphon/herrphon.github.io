@@ -79,8 +79,10 @@ docker node update --availability drain 1a
 docker node inspect --pretty 1a
 docker node inspect --pretty cq
 docker node update --availability active 1a
+```
 
 
+``` bash 
 docker service ls
 
 docker service create --name vote -p 8080:80 instavote/vote

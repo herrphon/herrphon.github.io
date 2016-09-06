@@ -6,7 +6,13 @@ category: java
 tags: [java, gradle]
 ---
 
+<p> {{ page.tags | array_to_sentence_string }} </p>
 
+<ul>
+{% for tag in page.tags %}
+    <li> {{tag}} </li>
+{% endfor %}
+</ul>
 
 
 <!-- 

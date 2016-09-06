@@ -57,3 +57,15 @@ Windows Environment Variable:
 JAVA_TOOL_OPTIONS = -Djsse.enableSNIExtension=false
 {% endhighlight %}
 
+
+
+## Unit Test
+
+<http://www.mkyong.com/unittest/junit-4-vs-testng-comparison/>
+
+
+
+
+## Scripts
+
+<https://github.com/herrphon/misc-scripts/tree/master/jira>
