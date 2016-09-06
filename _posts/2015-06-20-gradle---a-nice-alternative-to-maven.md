@@ -6,14 +6,18 @@ category: java
 tags: [java, gradle]
 ---
 
+<div>
+Tags:
 <p> {{ page.tags | array_to_sentence_string }} </p>
 
+Tags:
 <ul>
 {% for tag in page.tags %}
     <li> {{tag}} </li>
 {% endfor %}
 </ul>
-
+</div>
+<hr/>
 
 <!-- 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css"> 
