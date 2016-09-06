@@ -15,28 +15,30 @@ group: navigation
 
 ## Programming Stuff
 
-* [Git](/pages/git/git.html)
+* [Git](/pages/git/index.html)
 
 * [Java](/pages/java/index.html)
+  * [Atlassian](/pages/java/atlassian.html)
 
 * [Ruby](/pages/ruby/index.html)
 
 * [Javascript](/pages/javascript/index.html)
 
-
 * Golang
-  * [Golang - Links](/pages/golang/links.html)
+  * [Golang](/pages/golang/links.html)
 
+* PHP
+  * [PHP](/pages/php/laravel.html)
 
 * [Haskell](/pages/haskell/index.html)
+  * [Links](/pages/haskell/links.html)
 
 
 ## DevOps
 
 * [Docker](/pages/devops/docker.html)
-
 * [Heroku](/pages/devops/heroku.html)
-
+* [Jenkins](/pages/devops/jenkins.html)
 * [Command-line Stuff](/pages/devops/commandline.html)
 
 
