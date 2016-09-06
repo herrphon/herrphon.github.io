@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "how to debug anything"
+title: "How to Debug Anything"
 description: ""
 category: 
 tags: []

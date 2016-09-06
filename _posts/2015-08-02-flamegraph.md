@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "flamegraph"
+title: "Flamegraph"
 description: ""
 category: 
 tags: []
