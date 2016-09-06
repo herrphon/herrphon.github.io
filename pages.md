@@ -25,10 +25,10 @@ group: navigation
 * [Javascript](/pages/javascript/index.html)
 
 * Golang
-  * [Golang](/pages/golang/links.html)
+  * [Links](/pages/golang/links.html)
 
 * PHP
-  * [PHP](/pages/php/laravel.html)
+  * [Laravel](/pages/php/laravel.html)
 
 * [Haskell](/pages/haskell/index.html)
   * [Links](/pages/haskell/links.html)
