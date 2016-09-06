@@ -19,6 +19,7 @@ description: ""
 
 * [Digital Ocean](https://www.digitalocean.com)
 
+
 ### Tor - The Onion Routing
 
 * [Tor](https://www.torproject.org/)
@@ -27,7 +28,11 @@ description: ""
 
 
 
+## Devops
 
+### Docker
+
+[Docker Orchestration Workshop](http://cdn.gitcdn.link/cdn/jpetazzo/orchestration-workshop/master/www/htdocs/index.html) - great slides from jpetazzo
 
 
 ## Programming
