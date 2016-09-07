@@ -72,3 +72,10 @@ description: ""
 
 * [Open Source at Facebook](https://code.facebook.com/posts/463284987129903/oscon-2015-how-facebook-open-sources-at-scale/)
 
+
+## IoT
+
+* [Flic with RasperryPi](https://github.com/50ButtonsEach/fliclib-linux-hci)
+
+* [Hack Amazon's Dash Button (v1)](https://github.com/maximus64/amazon-dash-wiced)
+
