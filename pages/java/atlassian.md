@@ -32,3 +32,7 @@ http://www.j-tricks.com/tutorials/custom-field-searchers
 
 * [Stash Pull-Request Notifier](https://github.com/tomasbjerre/pull-request-notifier-for-bitbucket)
 
+
+
+* [Web Fragment Finder](https://marketplace.atlassian.com/plugins/com.wittified.webfragment-finder/cloud/overview)
+
