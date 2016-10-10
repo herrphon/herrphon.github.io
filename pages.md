@@ -12,6 +12,9 @@ group: navigation
 * [Quotes](/pages/quotes.html)
 
 
+## Good Talks
+
+* [Talks](/pages/talks/index.html)
 
 ## Programming Stuff
 
