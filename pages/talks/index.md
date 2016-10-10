@@ -15,6 +15,10 @@ tags: [talks]
 
 * [RailsConf 2014 - All the Little Things](https://www.youtube.com/watch?v=8bZh5LMaSmE)
   * Gilded Rose Kata
+  * Make smaller things
+  * Duplication is far cheaper than the wrong abstraction
+  * [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+  
 
 * [BathRuby 2015 - Nothing is Something](https://www.youtube.com/watch?v=9lv2lBq6x4A)
   * Smalltalk Infected -> send messages
