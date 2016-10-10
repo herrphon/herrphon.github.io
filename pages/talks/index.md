@@ -29,6 +29,8 @@ tags: [talks]
   * Give the name that changes a name -> Spreadsheet - what would you label the collumns?
   * Pluggable Behaviour - Composition and Dependency Injection
   
+
+* [99 Bottles](http://www.sandimetz.com/99bottles/)
   
   
   ### Asdf
