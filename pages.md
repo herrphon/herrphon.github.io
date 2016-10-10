@@ -43,6 +43,7 @@ group: navigation
 * [Heroku](/pages/devops/heroku.html)
 * [Jenkins](/pages/devops/jenkins.html)
 * [Command-line Stuff](/pages/devops/commandline.html)
+* [TDD + Infrastructure](/pages/devops/test-infrastructure.html)
 
 
 
