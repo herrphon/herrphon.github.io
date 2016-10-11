@@ -12,6 +12,7 @@ tags: [talks]
 ### Sandi Metz
 
 * [GORUCO 2009 - SOLID Object-Oriented Design](https://www.youtube.com/watch?v=v-2yFMzxqwU)
+  * [Slides](http://skmetz.home.mindspring.com/img1.html)
 
 * [Baruco 2013: Rules](https://www.youtube.com/watch?v=npOGOmkxuio)
 
