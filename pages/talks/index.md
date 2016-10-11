@@ -14,6 +14,8 @@ tags: [talks]
 * [GORUCO 2009 - SOLID Object-Oriented Design](https://www.youtube.com/watch?v=v-2yFMzxqwU)
   * [Slides](http://skmetz.home.mindspring.com/img1.html)
 
+* [Rails Conf 2013: The Magic Tricks of Testing](https://www.youtube.com/watch?v=URSWYvyc42M)
+
 * [Baruco 2013: Rules](https://www.youtube.com/watch?v=npOGOmkxuio)
 
 * [RailsConf 2014 - All the Little Things](https://www.youtube.com/watch?v=8bZh5LMaSmE)
