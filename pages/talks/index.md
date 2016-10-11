@@ -32,6 +32,9 @@ tags: [talks]
   * Give the name that changes a name -> Spreadsheet - what would you label the collumns?
   * Pluggable Behaviour - Composition and Dependency Injection
   
+  
+* [RailsConf 2016 - Get a Whiff of This](https://www.youtube.com/watch?v=PJjHfa5yxlU)
+
 
 * [99 Bottles](http://www.sandimetz.com/99bottles/)
   
