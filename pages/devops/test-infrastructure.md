@@ -6,6 +6,8 @@ description: ""
 
 * [test-kitchen](http://kitchen.ci/)
 
+  * [youtube - Kitchen Flows: Test Kitchen Usage Patterns - ChefConf 2015](https://www.youtube.com/watch?v=Hq1I29I8EfU)
+
 * [Test-Driven Infrastructure with Ansible, Test Kitchen, Serverspec and Rspec](http://de.slideshare.net/MartinEtmajer/testing-ansible-roles-with-test-kitchen-serverspec-and-rspec-48185017)
 
 
