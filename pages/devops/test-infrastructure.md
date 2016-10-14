@@ -4,6 +4,11 @@ title: "Test Infrastructure"
 description: ""
 ---
 
+
+* [Test-Driven Infrastructure with Ansible, Test Kitchen, Serverspec and RSpec](http://de.slideshare.net/MartinEtmajer/testing-ansible-roles-with-test-kitchen-serverspec-and-rspec-48185017)
+* [Deploying On-Prem as Saas - Why we go with Ansible - QCon London 2015](https://www.youtube.com/watch?v=wOGiM0HDdIM)
+
+
 * [test-kitchen](http://kitchen.ci/)
 
   * [youtube - Kitchen Flows: Test Kitchen Usage Patterns - ChefConf 2015](https://www.youtube.com/watch?v=Hq1I29I8EfU)
