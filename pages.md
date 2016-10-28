@@ -30,7 +30,7 @@ group: navigation
 * Golang
   * [Links](/pages/golang/links.html)
 
-* PHP
+* [PHP](/pages/php/index.html)
   * [Laravel](/pages/php/laravel.html)
 
 * [Haskell](/pages/haskell/index.html)
