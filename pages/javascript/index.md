@@ -38,4 +38,4 @@ description: ""
 
 * [Jasmine Vs Mocha Chai and Sinon](http://thejsguy.com/2015/01/12/jasmine-vs-mocha-chai-and-sinon.html)
 
-
+* [Javascript Variable Gotchas](http://blog.dmbcllc.com/javascript-variable-gotchas/)
