@@ -222,6 +222,10 @@ Certificate:
 {% endhighlight %}
 
 
+## Parse Commandline Input with Bash
+
+http://wiki.bash-hackers.org/howto/getopts_tutorial
+
 
 ## Analyze traffic remotely with wireshark and tcpdump over ssh
 

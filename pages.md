@@ -12,6 +12,9 @@ group: navigation
 * [Quotes](/pages/quotes.html)
 
 
+## Good Talks
+
+* [Talks](/pages/talks/index.html)
 
 ## Programming Stuff
 
@@ -27,7 +30,7 @@ group: navigation
 * Golang
   * [Links](/pages/golang/links.html)
 
-* PHP
+* [PHP](/pages/php/index.html)
   * [Laravel](/pages/php/laravel.html)
 
 * [Haskell](/pages/haskell/index.html)
@@ -40,6 +43,7 @@ group: navigation
 * [Heroku](/pages/devops/heroku.html)
 * [Jenkins](/pages/devops/jenkins.html)
 * [Command-line Stuff](/pages/devops/commandline.html)
+* [TDD + Infrastructure](/pages/devops/test-infrastructure.html)
 
 
 

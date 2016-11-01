@@ -63,6 +63,8 @@ JAVA_TOOL_OPTIONS = -Djsse.enableSNIExtension=false
 
 <http://www.mkyong.com/unittest/junit-4-vs-testng-comparison/>
 
+<http://joel-costigliola.github.io/assertj/assertj-core-quick-start.html>
+
 
 
 

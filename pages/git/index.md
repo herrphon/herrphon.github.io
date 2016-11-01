@@ -77,6 +77,12 @@ cafebabe is on master
  $ git check-ignore build -q || echo build >> .gitignore
 ```
 
+## Move git branch to another location e.g. one commit back
+
+```bash
+  $ git reset --hard HEAD^ 
+  $ git push -f 
+```
 
 
 ## Only checkout a subdirectory
