@@ -6,46 +6,40 @@ description: ""
 
 
 
+* [Docker container anti-patterns](http://blog.arungupta.me/docker-container-anti-patterns/)
 
 
-* [Heroku Blog - Docker Support](http://blog.heroku.com/archives/2015/8/18/docker_updates_local_data_stores_and_more_languages)
 
 
 * [Why Docker is Not Yet Succeeding Widely in Production](http://sirupsen.com/production-docker/)
-
 * [... 2](https://dzone.com/articles/why-docker-is-not-yet-widely-successful-in-product)
-
 
 * [docker in the real world at yelp](http://engineeringblog.yelp.com/2015/08/docker-in-the-real-world-at-yelp.html)
 
 
 
 
-CoreOS:
+#### CoreOS
 
 * [Flannel](https://coreos.com/blog/introducing-rudder/) - An Overlay Network 
 
 * <https://www.youtube.com/embed/uC8Y_TGtwPo>
 
 
-Project Atomic - RHEL Atomic Host:
-
+#### Project Atomic - RHEL Atomic Host
 
 * [Project Atomic](http://www.projectatomic.io/docs/gettingstarted/)
-
 * [RHEL Atomic Host](https://access.redhat.com/articles/rhel-atomic-getting-started)
 
 
 
 
 
-docker
+## Docker
  
-https://github.com/docker/docker/issues/19616
-
-http://stackoverflow.com/questions/34950465/logging-from-multiprocess-docker-containers
-
---> ? https://hub.docker.com/r/pataquets/ubuntu/~/dockerfile/
+<https://github.com/docker/docker/issues/19616>
+<http://stackoverflow.com/questions/34950465/logging-from-multiprocess-docker-containers>
+<https://hub.docker.com/r/pataquets/ubuntu/~/dockerfile/>
 
 
 
@@ -57,21 +51,21 @@ Running multiple processes in one container:
 
 
 
-docker in production:
+## Docker in Production
 
+* [Docker Bench Security](https://github.com/docker/docker-bench-security)
 
-https://github.com/docker/docker-bench-security
-
-
-cloning a running server with docker: 
-  * https://www.youtube.com/watch?v=1lCiWaLHwxo
-  * https://circleci.com/blog/checkpoint-and-restore-docker-container-with-criu/
-  * https://criu.org/Docker
+* Cloning a running server with docker: 
+  * <https://www.youtube.com/watch?v=1lCiWaLHwxo>
+  * <https://circleci.com/blog/checkpoint-and-restore-docker-container-with-criu/>
+  * <https://criu.org/Docker>
 
 
 ## Docker Swarm
 ### Commands 'docker service', 'docker node', ...
 
+
+**docker node**
 
 ``` bash 
 docker node ls
@@ -81,6 +75,7 @@ docker node inspect --pretty cq
 docker node update --availability active 1a
 ```
 
+**docker service**
 
 ``` bash 
 docker service ls
@@ -101,8 +96,6 @@ docker service rm croc-hunter
 
 docker service create --name ubuntu --mode global --mount type=bind,source=/data,target=/data  ubuntu  sleep 10000
 
- 
- 
 docker service create --name postgres -p 5432:5432/tcp -m type=bind,source=/mnt/nfs/postgres,target=/var/lib/postgresql/data,writable=true postgres:9.5
 
 
