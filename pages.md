@@ -40,6 +40,7 @@ group: navigation
 ## DevOps
 
 * [Docker](/pages/devops/docker.html)
+  * [Docker Swarm and Jenkins](/pages/devops/docker-swarm-jenkins.html)
 * [Heroku](/pages/devops/heroku.html)
 * [Jenkins](/pages/devops/jenkins.html)
 * [Command-line Stuff](/pages/devops/commandline.html)
