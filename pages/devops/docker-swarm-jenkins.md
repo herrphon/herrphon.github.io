@@ -18,6 +18,7 @@ Install [Swarm Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Swarm+Plugin)
 This plugin allows clients to register with jenkins (so the other way around compared to normal node registration).
 
 Deploy service globaly to run swarm agents using image [vfarcic/jenkins-swarm-agent](https://hub.docker.com/r/vfarcic/jenkins-swarm-agent/):
+
 ``` bash
 export USER=admin && export PASSWORD=admin
 
