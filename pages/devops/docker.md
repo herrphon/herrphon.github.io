@@ -17,7 +17,7 @@ description: ""
 * [docker in the real world at yelp](http://engineeringblog.yelp.com/2015/08/docker-in-the-real-world-at-yelp.html)
 
 
-
+* [youtube - docker for java developers (intellij)](https://www.youtube.com/watch?v=IgJXYU3GOM4)
 
 #### CoreOS
 
