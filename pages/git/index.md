@@ -94,3 +94,8 @@ i'll do a tldr at some point in time - but for now, this is also nice enough:
 
 
 
+## Git Log Pretty
+
+``` sh
+$ git log --graph --decorate --pretty=fuller
+```
