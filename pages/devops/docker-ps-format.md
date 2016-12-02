@@ -40,9 +40,14 @@ ae09c2cfa35e        2720ba41b903           "/bin/sh -c './wai..."    22 hours ag
 Remove CONTAINER_ID and CREATED and only use NAMES, IMAGE, COMMAND, STATUS, and PORTS.
 
 ``` sh
-$ cat ~/.docker/config.json
+$ mkdir -p ~/.docker
+$ cat >> ~/.docker/config.json <<EOF
 
-{ "psFormat": "table {{.Names}}\\t{{.Image}}\\t{{.Command}}\\t{{.Status}}\\t{{.Ports}}" }
+{ 
+  "psFormat": "table {{ printf \"%.35s\" .Names }}\\t{{ printf \"%.35s\" .Image }}\\t{{.Command}}\\t{{.Status}}\\t{{.Ports}}" 
+}
+
+EOF
 ``` 
 
 ``` sh
