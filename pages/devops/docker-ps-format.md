@@ -44,7 +44,7 @@ $ mkdir -p ~/.docker
 $ cat >> ~/.docker/config.json <<EOF
 
 { 
-  "psFormat": "table {{ printf \"%.35s\" .Names }}\\t{{ printf \"%.35s\" .Image }}\\t{{.Command}}\\t{{.Status}}\\t{{.Ports}}" 
+    "psFormat": "table {{with $n := .Names}}{{printf \"%.25s\" $n}}{{if gt (len $n) 25}}...{{end}}{{end}}\\t{{with $i := .Image}}{{printf \"%.25s\" $i}}{{if gt (len $i) 25}}...{{end}}{{end}}\\t{{.Command}}\\t{{.Status}}\\t{{.Ports}}"
 }
 
 EOF
