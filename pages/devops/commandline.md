@@ -6,6 +6,10 @@ description: ""
 
 
 
+## Check shell scripts
+
+Always use <https://www.shellcheck.net/> to check bash code :-)
+
 
 
 ## Search and replace a string in multiple files
