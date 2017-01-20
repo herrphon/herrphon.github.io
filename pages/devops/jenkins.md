@@ -25,17 +25,13 @@ description: ""
 
 
 ``` groovy
-
 node('docker-builder') {
     stage 'Checkout'
         git url: 'ssh://git@[...].git',
-            credentialsId: '[...]'  //,
-            // branch: 'refs/tags/${tagName}'
-
+            credentialsId: '[...]'
 
     stage('npm') {
         // maybe cleanup ./node_modules and similar
-        // def node = docker.image('node')
 
         def node = docker.image('digitallyseamless/nodejs-bower-grunt')
         node.pull()
@@ -58,12 +54,10 @@ node('docker-builder') {
             sh '''
                 export HOME="${PWD}"
                 export MAVEN_CONFIG="${HOME}/.m2"
-
-                GIT_DESCRIBE=$(git describe --tags --dirty --long --match "build-analyzer-[0-9]*" 2>/dev/null || echo "invalid")
-                echo "GIT_DESCRIBE=${GIT_DESCRIBE}" > env.properties
+                export GIT_DESCRIBE=$(git describe --tags --dirty --long --match "build-analyzer-[0-9]*" 2>/dev/null || echo "invalid")
                 
                 mvn -version
-                mvn package -Dmaven.repo.local="${HOME}/.m2"
+                mvn package -Dmaven.repo.local="${MAVEN_CONFIG}"
             '''
         }
     }
