@@ -27,3 +27,7 @@ description: "Some nice quotes..."
                 
                 
 
+> Venkat Subramaniam:
+> The quality of code is inversely proportional to the effort it takes to understand it.
+
+[link](http://blog.agiledeveloper.com/2010/05/thoughts-through-tweets_15.html)
