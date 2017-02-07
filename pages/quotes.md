@@ -30,5 +30,6 @@ description: "Some nice quotes..."
 > Venkat Subramaniam:
 > The quality of code is inversely proportional to the effort it takes to understand it. [link](http://blog.agiledeveloper.com/2010/05/thoughts-through-tweets_15.html)
 
+> Venkat Subramaniam:
 > A good code is like a joke. Writing comments is like explaining a joke. [link](http://blog.agiledeveloper.com/2006/01/comments-on-comments.html)
 
